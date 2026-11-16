@@ -1,0 +1,27 @@
+local modDir = g_currentModDirectory
+
+source(modDir .. "scripts/config/variables.lua")
+source(modDir .. "scripts/config/utilities.lua")
+source(modDir .. "scripts/config/money.lua")
+source(modDir .. "scripts/common/onLoad.lua")
+source(modDir .. "scripts/common/onSave.lua")
+source(modDir .. "scripts/productions/helper.lua")
+source(modDir .. "scripts/productions/Gui.lua")
+source(modDir .. "scripts/productions/FabriXproduction.lua")
+source(modDir .. "scripts/workers/helper.lua")
+source(modDir .. "scripts/workers/FabriXworker.lua")
+source(modDir .. "scripts/FabriX.lua")
+source(modDir .. "scripts/gui/FabriXGui.lua")
+source(modDir .. "scripts/gui/FabriXGui_Overview.lua")
+source(modDir .. "scripts/gui/FabriXGui_Market.lua")
+source(modDir .. "scripts/gui/FabriXGui_ShiftPlan.lua")
+source(modDir .. "scripts/gui/FabriXGui_Employees.lua")
+source(modDir .. "scripts/events/FabriXInitialStateEvent.lua")
+source(modDir .. "scripts/events/FabriXActionEvent.lua")
+source(modDir .. "scripts/events/FabriXNotificationEvent.lua")
+source(modDir .. "scripts/hooks/hookFunctions.lua")
+source(modDir .. "scripts/hooks/hooks.lua")
+
+g_gui:loadProfiles(modDir .. "xml/guiProfiles.xml")
+
+addModEventListener(FabriX)

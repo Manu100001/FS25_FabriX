@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<GUI name="FabriXGui" onOpen="onOpen" onClose="onClose" onEscPressed="onClickBack">
+    <Bitmap profile="fs25_fullScreenBackground" imageColor="0.016 0.017 0.016 0.98" />
+    <Bitmap profile="baseReference" position="80px 78px" size="1760px 945px" imageColor="0.025 0.028 0.025 0.92" />
+    <GuiElement profile="fs25_menuContainer">
+        <GuiElement profile="fs25_menuHeaderPanel">
+            <Bitmap profile="fs25_menuHeaderIconBg">
+                <Bitmap profile="fs25_menuHeaderIcon" />
+            </Bitmap>
+            <Text profile="fs25_menuHeaderTitle" text="FABRIX" />
+        </GuiElement>
+        <BoxLayout profile="fs25_subCategorySelectorTabbedBox">
+            <Button profile="fs25_subCategorySelectorTabbedTab" id="tabs[1]" text="$l10n_fabrix_gui_tab_overview" onClick="onClickTabOverview">
+                <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background" />
+            </Button>
+            <Button profile="fs25_subCategorySelectorTabbedTab" id="tabs[2]" text="$l10n_fabrix_gui_tab_shiftplan" onClick="onClickTabEinsatzplan">
+                <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background" />
+            </Button>
+            <Button profile="fs25_subCategorySelectorTabbedTab" id="tabs[3]" text="$l10n_fabrix_gui_tab_employees" onClick="onClickTabArbeitspool">
+                <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background" />
+            </Button>
+            <Button profile="fs25_subCategorySelectorTabbedTab" id="tabs[4]" text="$l10n_fabrix_gui_tab_market" onClick="onClickTabArbeitsmarkt">
+                <ThreePartBitmap profile="fs25_subCategorySelectorTabbedTabBg" name="background" />
+            </Button>
+        </BoxLayout>
+        <ThreePartBitmap profile="fs25_lineSeparatorTopHighlighted" position="0px -57px" />
+        <GuiElement profile="fs25_subCategorySelectorTabbedContainer">
+            <!-- =============================== -->
+            <!-- OVERVIEW / command center (Tab 1) -->
+            <!-- =============================== -->
+            <GuiElement id="overviewContainer" profile="fs25_subCategoryContainer" position="-60px -60px" size="1700px 820px" visible="true">
+                <!-- ============ LEFT: workforce + finances ============ -->
+                <Bitmap profile="fabrix_ovCard" position="0px 0px" size="500px 330px">
+                    <Text profile="fabrix_ovCardTitle" text="$l10n_fabrix_gui_ov_workforce" />
+                    <Text profile="fabrix_ovLabel" position="20px -50px" text="$l10n_fabrix_gui_ov_workers_total" />
+                    <Text profile="fabrix_ovValue" position="360px -50px" id="ovWorkerTotal" text="0" />
+                    <Text profile="fabrix_ovLabel" position="40px -84px" text="$l10n_fabrix_gui_ov_cat_erntehelfer" />
+                    <Text profile="fabrix_ovValue" position="360px -84px" id="ovCountErntehelfer" text="0" />
+                    <Text profile="fabrix_ovLabel" position="40px -114px" text="$l10n_fabrix_gui_ov_cat_geselle" />
+                    <Text profile="fabrix_ovValue" position="360px -114px" id="ovCountGeselle" text="0" />
+                    <Text profile="fabrix_ovLabel" position="40px -144px" text="$l10n_fabrix_gui_ov_cat_meister" />
+                    <Text profile="fabrix_ovValue" position="360px -144px" id="ovCountMeister" text="0" />
+                    <Text profile="fabrix_ovLabel" position="40px -174px" text="$l10n_fabrix_gui_ov_cat_betriebsleiter" />
+                    <Text profile="fabrix_ovValue" position="360px -174px" id="ovCountBetriebsleiter" text="0" />
+                    <Text profile="fabrix_ovLabel" position="40px -204px" text="$l10n_fabrix_gui_ov_cat_azubis" />
+                    <Text profile="fabrix_ovValue" position="360px -204px" id="ovCountAzubis" text="0" />
+                    <Text profile="fabrix_ovLabel" position="20px -238px" text="$l10n_fabrix_gui_ov_assigned" />
+                    <Text profile="fabrix_ovValue" position="360px -238px" id="ovAssigned" text="0 / 0" />
+                    <Text profile="fabrix_ovLabel" position="20px -268px" text="$l10n_fabrix_gui_ov_in_school" />
+                    <Text profile="fabrix_ovValue" position="360px -268px" id="ovInSchool" text="0" />
+                    <Text profile="fabrix_ovLabel" position="20px -298px" text="$l10n_fabrix_gui_ov_trainable" />
+                    <Text profile="fabrix_ovValue" position="360px -298px" id="ovTrainable" text="0" />
+                </Bitmap>
+                <Bitmap profile="fabrix_ovCard" position="0px -350px" size="500px 270px">
+                    <Text profile="fabrix_ovCardTitle" text="$l10n_fabrix_gui_ov_finances" />
+                    <Text profile="fabrix_ovLabel" position="20px -50px" text="$l10n_fabrix_gui_ov_salary" />
+                    <Text profile="fabrix_ovValue" position="360px -50px" id="ovSalarySum" text="0" />
+                    <Text profile="fabrix_ovLabel" position="20px -80px" text="$l10n_fabrix_gui_ov_property_tax" />
+                    <Text profile="fabrix_ovValue" position="360px -80px" id="ovPropertyTax" text="0" />
+                    <Text profile="fabrix_ovLabel" position="20px -204px" text="$l10n_fabrix_gui_ov_cost_total" />
+                    <Text profile="fabrix_ovValue" position="360px -204px" id="ovCostTotal" text="0" />
+                </Bitmap>
+                <!-- ============ CENTER: productions ============ -->
+                <Bitmap profile="fabrix_ovCard" position="540px 0px" size="500px 330px">
+                    <Text profile="fabrix_ovCardTitle" text="$l10n_fabrix_gui_ov_productions" />
+                    <Text profile="fabrix_ovLabel" position="20px -50px" text="$l10n_fabrix_gui_ov_factories_total" />
+                    <Text profile="fabrix_ovValue" position="360px -50px" id="ovProductionCount" text="0" />
+                    <Text profile="fabrix_ovLabel" position="20px -84px" text="$l10n_fabrix_gui_ov_slots_used" />
+                    <Text profile="fabrix_ovValue" position="360px -84px" id="ovSlotsUsage" text="0 / 0" />
+                    <Bitmap profile="fabrix_ovBarBg" position="40px -130px" id="ovSlotBarBg">
+                        <Bitmap profile="fabrix_ovBarFill" id="ovSlotBarFill" />
+                    </Bitmap>
+                    <Text profile="fabrix_ovBarText" position="260px -130px" id="ovSlotBarText" text="0%" />
+                    <Text profile="fabrix_ovLabel" position="20px -190px" text="$l10n_fabrix_gui_ov_avg_productivity" />
+                    <Text profile="fabrix_ovValue" position="360px -190px" id="ovAvgProd" text="0%" />
+                    <Text profile="fabrix_ovLabel" position="20px -224px" text="$l10n_fabrix_gui_ov_idle_factories" />
+                    <Text profile="fabrix_ovValue" position="360px -224px" id="ovIdleFactories" text="0" />
+                </Bitmap>
+                <Bitmap profile="fabrix_ovCard" position="540px -350px" size="500px 270px">
+                    <Text profile="fabrix_ovCardTitle" text="$l10n_fabrix_gui_ov_notifications" />
+                    <Text profile="fabrix_ovLabel" position="20px -56px" text="$l10n_fabrix_gui_notify_progress" />
+                    <BinaryOption id="notifyProgressOption" profile="fabrix_autoModeOption" position="330px -50px" onClick="onClickNotifyProgress" />
+                    <Text profile="fabrix_ovLabel" position="20px -106px" text="$l10n_fabrix_gui_notify_sickness" />
+                    <BinaryOption id="notifySicknessOption" profile="fabrix_autoModeOption" position="330px -100px" onClick="onClickNotifySickness" />
+                    <Text profile="fabrix_ovLabel" position="20px -156px" text="$l10n_fabrix_gui_notify_staff" />
+                    <BinaryOption id="notifyStaffOption" profile="fabrix_autoModeOption" position="330px -150px" onClick="onClickNotifyStaff" />
+                </Bitmap>
+                <!-- ============ RIGHT: action needed (top) ============ -->
+                <Bitmap profile="fabrix_ovCard" position="1080px 0px" size="490px 600px">
+                    <Text profile="fabrix_ovCardTitle" text="$l10n_fabrix_gui_ov_action_needed" />
+                    <GuiElement profile="fs25_subCategoryListContainer" position="10px -50px" size="470px 540px">
+                        <Bitmap profile="fs25_subCategoryStartClipper" name="startClipper" />
+                        <Bitmap profile="fs25_subCategoryStopClipper" name="endClipper" />
+                        <SmoothList id="alertList" profile="fs25_subCategoryList" size="470px 540px" startClipperElementName="startClipper" endClipperElementName="endClipper">
+                            <ListItem profile="fabrix_ovAlertItem" size="445px 40px" name="alertCell">
+                                <Text profile="fabrix_ovAlertText" name="text" />
+                            </ListItem>
+                        </SmoothList>
+                        <ThreePartBitmap profile="fs25_subCategoryListSliderBox">
+                            <Slider profile="fs25_listSlider" dataElementId="alertList" />
+                        </ThreePartBitmap>
+                    </GuiElement>
+                </Bitmap>
+            </GuiElement>
+            <!-- =============================== -->
+            <!-- left: shift pane (factory list) -->
+            <!-- =============================== -->
+            <GuiElement id="einsatzplanContainer" profile="fs25_subCategoryContainer" position="-60px 40px" size="524px 820px" visible="false">
+                <GuiElement profile="fs25_subCategoryListContainer">
+                    <Bitmap profile="fs25_subCategoryStartClipper" name="startClipper" />
+                    <Bitmap profile="fs25_subCategoryStopClipper" name="endClipper" />
+                    <SmoothList id="productionList" profile="fs25_subCategoryList" startClipperElementName="startClipper" endClipperElementName="endClipper">
+                        <ListItem profile="fs25_subCategoryListItem" name="fabrixCell">
+                            <Bitmap profile="fs25_subCategoryListItemIcon" name="icon" />
+                            <Text profile="fabrix_workerName" name="name" />
+                            <Text profile="fabrix_workerInfo" name="info" />
+                        </ListItem>
+                    </SmoothList>
+                    <ThreePartBitmap profile="fs25_subCategoryListSliderBox">
+                        <Slider profile="fs25_listSlider" dataElementId="productionList" />
+                    </ThreePartBitmap>
+                </GuiElement>
+            </GuiElement>
+            <!-- ============================================================ -->
+            <!-- left: market categories -->
+            <!-- ============================================================ -->
+            <GuiElement id="arbeitsmarktContainer" profile="fs25_subCategoryContainer" position="-60px 40px" size="524px 820px" visible="false">
+                <GuiElement profile="fs25_subCategoryListContainer">
+                    <Bitmap profile="fs25_subCategoryStartClipper" name="startClipper" />
+                    <Bitmap profile="fs25_subCategoryStopClipper" name="endClipper" />
+                    <SmoothList id="categoryList" profile="fs25_subCategoryList" startClipperElementName="startClipper" endClipperElementName="endClipper" onClick="onCategoryClicked">
+                        <ListItem profile="fs25_subCategoryListItem" name="categoryCell">
+                            <Bitmap profile="fs25_subCategoryListItemIcon" name="icon" />
+                            <Text profile="fs25_subCategoryListItemName" name="name" />
+                        </ListItem>
+                    </SmoothList>
+                    <ThreePartBitmap profile="fs25_subCategoryListSliderBox">
+                        <Slider profile="fs25_listSlider" dataElementId="categoryList" />
+                    </ThreePartBitmap>
+                </GuiElement>
+            </GuiElement>
+            <!-- ============================================================ -->
+            <!-- center: market: worker list -->
+            <!-- ============================================================ -->
+            <GuiElement id="workerDetailContainer" profile="fs25_subCategoryContainer" position="480px 40px" size="524px 820px" visible="false">
+                <GuiElement profile="fs25_subCategoryListContainer">
+                    <Bitmap profile="fs25_subCategoryStartClipper" name="startClipper" />
+                    <Bitmap profile="fs25_subCategoryStopClipper" name="endClipper" />
+                    <SmoothList id="workerMarketList" profile="fs25_subCategoryList" startClipperElementName="startClipper" endClipperElementName="endClipper" onClick="onWorkerClicked">
+                        <ListItem profile="fs25_subCategoryListItem" name="workerCell">
+                            <Bitmap profile="fs25_subCategoryListItemIcon" name="icon" />
+                            <Text profile="fabrix_workerName" name="name" />
+                            <Text profile="fabrix_workerInfo" name="info" />
+                        </ListItem>
+                    </SmoothList>
+                    <ThreePartBitmap profile="fs25_subCategoryListSliderBox">
+                        <Slider profile="fs25_listSlider" dataElementId="workerMarketList" />
+                    </ThreePartBitmap>
+                </GuiElement>
+                <Text id="workerEmptyText" profile="fabrix_emptyText" text="$l10n_fabrix_gui_market_empty" visible="false" />
+            </GuiElement>
+            <!-- ============================================================ -->
+            <!-- left: employees: categories -->
+            <!-- ============================================================ -->
+            <GuiElement id="poolCategoryContainer" profile="fs25_subCategoryContainer" position="-60px 40px" size="524px 820px" visible="false">
+                <GuiElement profile="fs25_subCategoryListContainer">
+                    <Bitmap profile="fs25_subCategoryStartClipper" name="startClipper" />
+                    <Bitmap profile="fs25_subCategoryStopClipper" name="endClipper" />
+                    <SmoothList id="poolCategoryList" profile="fs25_subCategoryList" startClipperElementName="startClipper" endClipperElementName="endClipper" onClick="onPoolCategoryClicked" listSectionHeader="sectionHeader">
+                        <ListItem profile="fabrix_poolSectionHeader" name="sectionHeader">
+                            <Text profile="fabrix_ovCardTitle" name="title" position="20px -56px" />
+                        </ListItem>
+                        <ListItem profile="fs25_subCategoryListItem" name="categoryCell">
+                            <Bitmap profile="fs25_subCategoryListItemIcon" name="icon" />
+                            <Text profile="fs25_subCategoryListItemName" name="name" />
+                        </ListItem>
+                    </SmoothList>
+                    <ThreePartBitmap profile="fs25_subCategoryListSliderBox">
+                        <Slider profile="fs25_listSlider" dataElementId="poolCategoryList" />
+                    </ThreePartBitmap>
+                </GuiElement>
+            </GuiElement>
+            <!-- ============================================================ -->
+            <!-- center: employees: worker list -->
+            <!-- ============================================================ -->
+            <GuiElement id="poolDetailContainer" profile="fs25_subCategoryContainer" position="510px 40px" size="524px 820px" visible="false">
+                <GuiElement profile="fs25_subCategoryListContainer">
+                    <Bitmap profile="fs25_subCategoryStartClipper" name="startClipper" />
+                    <Bitmap profile="fs25_subCategoryStopClipper" name="endClipper" />
+                    <SmoothList id="poolWorkerList" profile="fs25_subCategoryList" startClipperElementName="startClipper" endClipperElementName="endClipper" onClick="onPoolWorkerClicked">
+                        <ListItem profile="fs25_subCategoryListItem" name="workerCell">
+                            <Bitmap profile="fs25_subCategoryListItemIcon" name="icon" />
+                            <Text profile="fabrix_workerName" name="name" />
+                            <Text profile="fabrix_workerInfo" name="info" />
+                        </ListItem>
+                    </SmoothList>
+                    <ThreePartBitmap profile="fs25_subCategoryListSliderBox">
+                        <Slider profile="fs25_listSlider" dataElementId="poolWorkerList" />
+                    </ThreePartBitmap>
+                </GuiElement>
+                <!-- Filter bar (visible only for skilled workers) - sits above the list -->
+                <BoxLayout id="poolFilterBox" profile="fabrix_filterColumn" position="-164px -212px" visible="false">
+                    <Button id="poolFilterAll" profile="fabrix_filterButton" text="$l10n_fabrix_gui_filter_all" onClick="onClickFilterAll" />
+                    <Button id="poolFilterGeselle" profile="fabrix_filterButton" text="$l10n_fabrix_gui_filter_geselle" onClick="onClickFilterGeselle" />
+                    <Button id="poolFilterMeister" profile="fabrix_filterButton" text="$l10n_fabrix_gui_filter_meister" onClick="onClickFilterMeister" />
+                    <Button id="poolFilterBl" profile="fabrix_filterButton" text="$l10n_fabrix_gui_filter_betriebsleiter" onClick="onClickFilterBl" />
+                </BoxLayout>
+                <!-- Level selector (all categories) -->
+                <BoxLayout id="poolLevelBox" profile="fabrix_filterBox" position="-164px -152px">
+                    <Button profile="fabrix_filterButton" size="36px 36px" text="&lt;" onClick="onClickLevelPrev" />
+                    <Text id="poolLevelButton" profile="fabrix_filterButton" size="80px 36px" text="$l10n_fabrix_gui_level_all" />
+                    <Button profile="fabrix_filterButton" size="36px 36px" text="&gt;" onClick="onClickLevelNext" />
+                </BoxLayout>
+                <Text id="poolEmptyText" profile="fabrix_emptyText" position="-90px 0px" text="$l10n_fabrix_gui_pool_empty" visible="false" />
+            </GuiElement>
+            <!-- ============================================================ -->
+            <!-- right: employee detail panel -->
+            <!-- ============================================================ -->
+            <GuiElement id="employeeDetailContainer" profile="fs25_subCategoryContainer" position="1020px 40px" size="620px 640px" visible="false">
+                <Bitmap profile="fabrix_detailBg" />
+                <Bitmap profile="fabrix_detailPortrait" id="detailPortrait" />
+                <Text profile="fabrix_detailName" id="detailName" text="" />
+                <Text profile="fabrix_detailCategory" id="detailCategory" text="" />
+                <Text profile="fabrix_detailLabel" position="40px -210px" text="$l10n_fabrix_gui_detail_age" />
+                <Text profile="fabrix_detailValue" position="260px -210px" id="detailAge" text="" />
+                <Text profile="fabrix_detailLabel" position="40px -252px" text="$l10n_fabrix_gui_detail_level" />
+                <Text profile="fabrix_detailValue" position="260px -252px" id="detailLevel" text="" />
+                <Text profile="fabrix_detailLabel" position="40px -294px" text="$l10n_fabrix_gui_detail_productivity" />
+                <Text profile="fabrix_detailValue" position="260px -294px" id="detailProductivity" text="" />
+                <Text profile="fabrix_detailLabel" position="40px -336px" text="$l10n_fabrix_gui_detail_xp" />
+                <Bitmap profile="fabrix_detailBarBg" position="260px -336px" id="detailXPBarBg">
+                    <Bitmap profile="fabrix_detailBarFill" id="detailXPBarFill" />
+                </Bitmap>
+                <Text profile="fabrix_detailBarText" position="400px -336px" id="detailXPText" text="" />
+                <Text profile="fabrix_detailLabel" position="40px -378px" text="$l10n_fabrix_gui_detail_hired" />
+                <Text profile="fabrix_detailValue" position="260px -378px" id="detailHired" text="" />
+                <Text profile="fabrix_detailLabel" position="40px -462px" text="$l10n_fabrix_gui_detail_assigned" />
+                <Text profile="fabrix_detailValue" position="260px -462px" id="detailAssign" text="" />
+                <Text profile="fabrix_detailLabel" position="40px -504px" text="$l10n_fabrix_gui_detail_salary" />
+                <Text profile="fabrix_detailValue" position="260px -504px" id="detailSalary" text="" />
+                <Text profile="fabrix_detailLabel" position="40px -546px" id="detailNoticeLabel" text="$l10n_fabrix_gui_detail_status" visible="false" />
+                <Text profile="fabrix_detailValue" position="260px -546px" id="detailNotice" text="" visible="false" />
+            </GuiElement>
+            <!-- Empty hint (shift-plan tab, when no factories) -->
+            <Text id="emptyText" profile="fabrix_emptyText" text="$l10n_fabrix_gui_no_productions" visible="false" />
+            <!-- ============================================================ -->
+            <!-- RIGHT: shift plan (shift-plan tab) -->
+            <!-- ============================================================ -->
+            <GuiElement id="shiftPane" position="420px 0px" size="1180px 740px" visible="false">
+                <Text id="shiftFactoryName" profile="fabrix_shiftTitle" text="" position="0px 0px" />
+                <GuiElement position="780px 680px" size="400px 60px">
+                    <Text id="upgradeXpText" profile="fabrix_upgradeXpText" text="" />
+                    <Text id="upgradeRenoText" profile="fabrix_upgradeXpText" position="0px -28px" text="" visible="false" />
+                    <Bitmap id="upgradeBarBg" profile="fabrix_upgradeBarBg">
+                        <Bitmap id="upgradeBarFill" profile="fabrix_upgradeBarFill" />
+                    </Bitmap>
+                </GuiElement>
+                <GuiElement id="autoModeBox" position="0px 150px" size="400px 30px" visible="false">
+                    <Text profile="fabrix_leadSlotLabel" text="$l10n_fabrix_gui_auto_mode" position="0px -6px" />
+                    <BinaryOption id="autoModeOption" profile="fabrix_autoModeOption" position="100px 0px" onClick="onClickAutoMode" />
+                </GuiElement>
+                <GuiElement profile="fabrix_shiftRow" position="0px -60px">
+                    <Text profile="fabrix_shiftLabel" text="00:00 - 08:00" />
+                    <Text profile="fabrix_shiftProdValue" id="shiftProductivity1" position="-105px -55px" text="0%" />
+                    <BoxLayout profile="fabrix_shiftSlots" id="shiftSlots1" />
+                </GuiElement>
+                <GuiElement profile="fabrix_shiftRow" position="0px -230px">
+                    <Text profile="fabrix_shiftLabel" text="08:00 - 16:00" />
+                    <Text profile="fabrix_shiftProdValue" id="shiftProductivity2" position="-105px -55px" text="0%" />
+                    <BoxLayout profile="fabrix_shiftSlots" id="shiftSlots2" />
+                </GuiElement>
+                <GuiElement profile="fabrix_shiftRow" position="0px -400px">
+                    <Text profile="fabrix_shiftLabel" text="16:00 - 24:00" />
+                    <Text profile="fabrix_shiftProdValue" id="shiftProductivity3" position="-105px -55px" text="0%" />
+                    <BoxLayout profile="fabrix_shiftSlots" id="shiftSlots3" />
+                </GuiElement>
+                <!-- ================= Factory management (shift-independent) ================= -->
+                <GuiElement id="leadershipBlock" position="1000px 0px" size="200px 500px" visible="false">
+                    <Text profile="fabrix_leadTitle" text="$l10n_fabrix_gui_lead_title" position="0px 115px" />
+                    <Text profile="fabrix_leadSlotLabel" id="masterSlotLabel" text="$l10n_fabrix_gui_lead_master" position="0px 81px" visible="false" />
+                    <BoxLayout profile="fabrix_shiftSlots" id="masterSlotBox" position="0px 56px" size="200px 110px" />
+                    <Text profile="fabrix_leadSlotLabel" id="blSlotLabel" text="$l10n_fabrix_gui_lead_bl" position="0px -63px" visible="false" />
+                    <BoxLayout profile="fabrix_shiftSlots" id="blSlotBox" position="0px -88px" size="200px 110px" />
+                </GuiElement>
+                <Button profile="fabrix_helperSlot" id="helperSlotTemplate" visible="false" onClick="onSlotClicked">
+                    <Bitmap profile="fabrix_helperSlotBg" name="bg" />
+                    <Bitmap profile="fabrix_helperIcon" name="helperIcon" />
+                    <Text profile="fabrix_helperName" name="helperName" text="" />
+                    <Text profile="fabrix_helperLevel" name="helperLevel" text="" />
+                    <Text profile="fabrix_helperXP" name="helperXP" text="" />
+                </Button>
+            </GuiElement>
+        </GuiElement>
+        <BoxLayout profile="fs25_dialogButtonBox">
+            <Button profile="fabrix_hireLeft" id="hireButton" text="$l10n_fabrix_gui_btn_hire" onClick="onClickHire" inputAction="MENU_ACCEPT" visible="false" />
+            <Button profile="fabrix_trainLeft" id="trainButton" text="$l10n_fabrix_gui_btn_train_default" onClick="onClickTrainEmployee" inputAction="MENU_EXTRA_2" visible="false" />
+            <Button profile="fabrix_fireLeft" id="fireButton" text="$l10n_fabrix_gui_btn_dismiss" onClick="onClickFireEmployee" inputAction="MENU_EXTRA_1" visible="false" />
+            <Button profile="fabrix_fireLeft" id="clearShiftsButton" text="$l10n_fabrix_gui_btn_clear_shifts" onClick="onClickClearShifts" inputAction="MENU_EXTRA_2" visible="false" />
+            <Button profile="fabrix_trainLeft" id="upgradeButton" text="$l10n_fabrix_upgrade_factory_button_text" onClick="onClickUpgrade" inputAction="MENU_EXTRA_1" visible="false" />
+            <Button profile="fabrix_visitLeft" id="visitButton" text="$l10n_fabrix_gui_btn_visit" onClick="onClickVisit" inputAction="MENU_ACTIVATE" visible="false" />
+            <Button profile="fabrix_backRight" text="$l10n_button_back" onClick="onClickBack" />
+        </BoxLayout>
+    </GuiElement>
+</GUI>

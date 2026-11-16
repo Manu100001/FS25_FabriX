@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<GUIProfiles>
+  <!-- text when there are no productions -->
+  <Profile name="fabrix_emptyText" extends="fs25_textDefault"
+    with="anchorMiddleCenter">
+    <size value="700px 300px" />
+    <position value="-90px 220px" />
+    <textSize value="19px" />
+    <textColor
+      value="0.6 0.6 0.6 1" />
+    <textAlignment value="center" />
+  </Profile>
+  <!-- title of the shift -->
+  <Profile name="fabrix_shiftTitle" extends="fs25_textDefault" with="anchorTopLeft">
+    <size value="1000px 40px" />
+    <textSize
+      value="24px" />
+    <textBold value="true" />
+    <textColor value="0.88 0.90 0.86 1" />
+  </Profile>
+  <!-- container of a shift line -->
+  <Profile name="fabrix_shiftRow" extends="emptyPanel" with="anchorTopLeft">
+    <size
+      value="1180px 150px" />
+  </Profile>
+  <!-- description of the shift -->
+  <Profile name="fabrix_shiftLabel"
+    extends="fs25_textDefault" with="anchorTopLeft">
+    <position value="0px 0px" />
+    <textSize
+      value="18px" />
+    <textBold value="true" />
+    <textColor value="0.60 0.68 0.55 1" />
+  </Profile>
+  <!-- BoxLayout which orders slots horizontal -->
+  <Profile name="fabrix_shiftSlots" extends="emptyPanel" with="anchorTopLeft">
+    <position
+      value="0px -34px" />
+    <size value="1180px 110px" />
+    <flowDirection value="horizontal" />
+    <alignmentX value="left" />
+    <alignmentY value="top" />
+    <flowSpacing value="18px" />
+  </Profile>
+  <!-- individual worker slot -->
+  <Profile name="fabrix_helperSlot" extends="emptyPanel" with="anchorTopLeft">
+    <size
+      value="180px 90px" />
+  </Profile>
+  <Profile name="fabrix_helperSlotBg"
+    extends="baseReference" with="anchorTopLeft">
+    <position value="0px 0px" />
+    <size
+      value="168px 90px" />
+    <imageColor value="0.10 0.11 0.10 0.95" />
+    <imageFocusedColor
+      value="0.314 0.380 0.037 1" />
+    <borderColor value="0.35 0.40 0.32 1" />
+    <borderWidth
+      value="2px" />
+  </Profile>
+  <!-- worker icon on the left side in the slot -->
+  <Profile name="fabrix_helperIcon"
+    extends="fs25_subCategoryListItemIcon" with="anchorTopLeft">
+    <position value="10px -13px" />
+    <size value="52px 52px" />
+    <imageColor value="1 1 1 1" />
+  </Profile>
+  <!-- name: next to the icon -->
+  <Profile name="fabrix_helperName" extends="fs25_textDefault" with="anchorTopLeft">
+    <position
+      value="72px -12px" />
+    <textSize value="19px" />
+    <textBold value="true" />
+    <textColor
+      value="0.88 0.90 0.86 1" />
+    <textAlignment value="left" />
+    <textVerticalAlignment
+      value="top" />
+  </Profile>
+  <!-- level: below the name -->
+  <Profile name="fabrix_helperLevel" extends="fs25_textDefault"
+    with="anchorTopLeft">
+    <position value="72px -38px" />
+    <textSize value="16px" />
+    <textColor
+      value="0.60 0.68 0.55 1" />
+    <textAlignment value="left" />
+    <textVerticalAlignment
+      value="top" />
+  </Profile>
+  <!-- category: below the level -->
+  <Profile name="fabrix_helperXP" extends="fs25_textDefault"
+    with="anchorTopLeft">
+    <position value="72px -58px" />
+    <textSize value="16px" />
+    <textColor
+      value="0.50 0.56 0.46 1" />
+    <textAlignment value="left" />
+    <textVerticalAlignment
+      value="top" />
+  </Profile>
+  <!--  ===================================================================== -->
+  <!--  Button bar at the bottom: back on the right, actions on the left -->
+  <!--  ===================================================================== -->
+  <!-- Back button on the right -->
+  <Profile name="fabrix_backRight" extends="buttonBack" with="anchorBottomRight">
+    <position
+      value="0px 0px" />
+  </Profile>
+  <!-- Hire button on the left -->
+  <Profile name="fabrix_hireLeft" extends="buttonBack"
+    with="anchorBottomLeft">
+    <position value="0px 0px" />
+    <textColor
+      value="1 1 1 1" />
+  </Profile>
+  <!-- Fire button on the left -->
+  <Profile name="fabrix_fireLeft"
+    extends="buttonBack" with="anchorBottomLeft">
+    <position value="370px 0px" />
+    <textColor
+      value="1 1 1 1" />
+  </Profile>
+  <!-- Train button on the left -->
+  <Profile name="fabrix_trainLeft"
+    extends="buttonBack" with="anchorBottomLeft">
+    <position value="740px 0px" />
+    <textColor
+      value="1 1 1 1" />
+  </Profile>
+  <!-- worker name -->
+  <Profile name="fabrix_workerName"
+    extends="fs25_textDefault" with="anchorTopLeft">
+    <position value="100px -16px" />
+    <textSize
+      value="20px" />
+    <textBold value="true" />
+    <textColor value="0.88 0.90 0.86 1" />
+    <textVerticalAlignment
+      value="top" />
+  </Profile>
+  <!-- info row with age, level and salary -->
+  <Profile name="fabrix_workerInfo" extends="fs25_textDefault"
+    with="anchorTopLeft">
+    <position value="100px -48px" />
+    <textSize value="15px" />
+    <textColor
+      value="0.60 0.68 0.55 1" />
+    <textVerticalAlignment value="top" />
+  </Profile>
+  <!-- ===================================================================== -->
+  <!-- worker detail panel (on the right side inside the employee tab)  -->
+  <!-- ===================================================================== -->
+  <!-- background of the detail panel -->
+  <Profile name="fabrix_detailBg" extends="baseReference" with="anchorTopLeft">
+    <position
+      value="0px 0px" />
+    <size value="600px 640px" />
+    <imageColor
+      value="0.06 0.07 0.06 0.95" />
+    <borderColor value="0.35 0.40 0.32 1" />
+    <borderWidth
+      value="2px" />
+  </Profile>
+  <!-- portrait top left -->
+  <Profile name="fabrix_detailPortrait"
+    extends="fs25_subCategoryListItemIcon" with="anchorTopLeft">
+    <position value="40px -40px" />
+    <size value="140px 140px" />
+    <imageColor value="1 1 1 1" />
+  </Profile>
+  <!-- name next to the portrait -->
+  <Profile name="fabrix_detailName" extends="fs25_textDefault" with="anchorTopLeft">
+    <position
+      value="200px -50px" />
+    <textSize value="30px" />
+    <textBold value="true" />
+    <textColor
+      value="0.88 0.90 0.86 1" />
+    <textVerticalAlignment value="top" />
+  </Profile>
+  <!-- category below the name -->
+  <Profile name="fabrix_detailCategory" extends="fs25_textDefault" with="anchorTopLeft">
+    <position
+      value="200px -92px" />
+    <textSize value="18px" />
+    <textColor value="0.60 0.68 0.55 1" />
+    <textVerticalAlignment value="top" />
+  </Profile>
+  <!-- label -->
+  <Profile name="fabrix_detailLabel"
+    extends="fs25_textDefault" with="anchorTopLeft">
+    <textSize value="17px" />
+    <textColor
+      value="0.55 0.60 0.52 1" />
+    <textVerticalAlignment value="top" />
+  </Profile>
+  <!-- value -->
+  <Profile name="fabrix_detailValue" extends="fs25_textDefault" with="anchorTopLeft">
+    <textSize
+      value="17px" />
+    <textBold value="true" />
+    <textColor value="0.88 0.90 0.86 1" />
+    <textVerticalAlignment
+      value="top" />
+  </Profile>
+  <!-- background xp bar -->
+  <Profile name="fabrix_detailBarBg" extends="baseReference"
+    with="anchorTopLeft">
+    <size value="130px 20px" />
+    <imageColor value="0.12 0.13 0.11 1" />
+    <borderColor value="0.35 0.40 0.32 1" />
+    <borderWidth value="1px" />
+  </Profile>
+  <!-- xp bar -->
+  <Profile name="fabrix_detailBarFill" extends="baseReference" with="anchorTopLeft">
+    <position
+      value="0px 0px" />
+    <size value="65px 20px" />
+    <imageColor value="0.68 0.96 0.08 1" />
+  </Profile>
+  <!-- xp text (e.g. "40 / 100") -->
+  <Profile name="fabrix_detailBarText" extends="fs25_textDefault"
+    with="anchorTopLeft">
+    <textSize value="17px" />
+    <textColor value="0.88 0.90 0.86 1" />
+    <textVerticalAlignment value="top" />
+  </Profile>
+  <!-- Productivity display left of the slots (large percentage) -->
+  <Profile name="fabrix_shiftProdValue"
+    extends="fs25_textDefault" with="anchorTopLeft">
+    <position value="0px -34px" />
+    <size
+      value="130px 40px" />
+    <textSize value="20px" />
+    <textBold value="true" />
+    <textColor
+      value="0.68 0.96 0.08 1" />
+    <textAlignment value="center" />
+    <textVerticalAlignment
+      value="middle" />
+  </Profile>
+  <!-- Heading of the leadership block -->
+  <Profile name="fabrix_leadTitle"
+    extends="fs25_textDefault" with="anchorTopLeft">
+    <textSize value="18px" />
+    <textBold
+      value="true" />
+    <textColor value="0.68 0.96 0.08 1" />
+  </Profile>
+  <!-- Label above a leadership slot (e.g. "MEISTER") -->
+  <Profile name="fabrix_leadSlotLabel" extends="fs25_textDefault" with="anchorTopLeft">
+    <textSize
+      value="14px" />
+    <textBold value="true" />
+    <textColor value="0.60 0.68 0.55 1" />
+  </Profile>
+  <!-- ===================================================================== -->
+  <!-- Overview / command center (Tab 1)         -->
+  <!-- ===================================================================== -->
+  <!-- Overview card (background box) -->
+  <Profile name="fabrix_ovCard" extends="baseReference" with="anchorTopLeft">
+    <size
+      value="500px 240px" />
+    <imageColor value="0.06 0.07 0.06 0.95" />
+    <borderColor
+      value="0.35 0.40 0.32 1" />
+    <borderWidth value="2px" />
+  </Profile>
+  <!-- Card title / heading -->
+  <Profile name="fabrix_ovCardTitle" extends="fs25_textDefault" with="anchorTopLeft">
+    <position
+      value="20px -16px" />
+    <textSize value="20px" />
+    <textBold value="true" />
+    <textColor
+      value="0.68 0.96 0.08 1" />
+    <textVerticalAlignment value="top" />
+  </Profile>
+  <!-- Label (left column in the card) -->
+  <Profile name="fabrix_ovLabel" extends="fs25_textDefault" with="anchorTopLeft">
+    <textSize
+      value="17px" />
+    <textColor value="0.60 0.68 0.55 1" />
+    <textVerticalAlignment
+      value="top" />
+  </Profile>
+  <!-- Value (right column in the card) -->
+  <Profile name="fabrix_ovValue" extends="fs25_textDefault"
+    with="anchorTopLeft">
+    <textSize value="17px" />
+    <textBold value="true" />
+    <textColor
+      value="0.88 0.90 0.86 1" />
+    <textVerticalAlignment value="top" />
+  </Profile>
+  <!-- Utilization bar background -->
+  <Profile name="fabrix_ovBarBg" extends="baseReference" with="anchorTopLeft">
+    <size value="200px 20px" />
+    <imageColor value="0.12 0.13 0.11 1" />
+    <borderColor value="0.35 0.40 0.32 1" />
+    <borderWidth
+      value="1px" />
+  </Profile>
+  <!-- Utilization bar fill -->
+  <Profile name="fabrix_ovBarFill" extends="baseReference"
+    with="anchorTopLeft">
+    <position value="0px 0px" />
+    <size value="100px 20px" />
+    <imageColor
+      value="0.68 0.96 0.08 1" />
+  </Profile>
+  <!-- Text next to the utilization bar -->
+  <Profile name="fabrix_ovBarText"
+    extends="fs25_textDefault" with="anchorTopLeft">
+    <textSize value="15px" />
+    <textColor
+      value="0.88 0.90 0.86 1" />
+    <textVerticalAlignment value="top" />
+  </Profile>
+  <!-- XP / upgrade display in the shift plan -->
+  <Profile name="fabrix_upgradeXpText" extends="fs25_textDefault" with="anchorTopRight">
+    <size value="400px 26px" />
+    <textSize value="22px" />
+    <textBold value="true" />
+    <textAlignment value="right" />
+    <textVerticalAlignment value="top" />
+    <textColor value="1 1 1 1" />
+  </Profile>
+  <Profile name="fabrix_upgradeBarBg" extends="baseReference" with="anchorTopRight">
+    <position value="0px -28px" />
+    <size value="200px 8px" />
+    <imageColor value="0.2 0.2 0.2 0.8" />
+  </Profile>
+  <Profile name="fabrix_upgradeBarFill" extends="baseReference" with="anchorTopLeft">
+    <size value="0px 8px" />
+    <imageColor value="0.2 0.8 0.2 1" />
+  </Profile>
+  <!-- Text of an action-needed row -->
+  <Profile name="fabrix_ovAlertText" extends="fs25_textDefault" with="anchorTopLeft">
+    <position
+      value="16px 0px" />
+    <size value="440px 44px" />
+    <textSize value="18px" />
+    <textColor
+      value="0.88 0.90 0.86 1" />
+    <textAlignment value="left" />
+  </Profile>
+  <!-- Plain row for the action-needed list (without selection highlight) -->
+  <Profile name="fabrix_ovAlertItem" extends="emptyPanel" with="anchorTopLeft">
+    <size
+      value="465px 44px" />
+    <imageColor value="0 0 0 0" />
+    <imageFocusedColor
+      value="0 0 0 0" />
+    <imageSelectedColor value="0 0 0 0" />
+  </Profile>
+  <!--  ===================================================================== -->
+  <!-- Filter bar in the employee tab (visible only for skilled  workers)  -->
+  <!--  ===================================================================== -->
+  <!-- Container (BoxLayout) for the filter buttons -->
+  <Profile name="fabrix_filterBox"
+    extends="emptyPanel" with="anchorTopLeft">
+    <size value="524px 44px" />
+    <flowDirection
+      value="horizontal" />
+    <alignmentX value="left" />
+    <alignmentY value="top" />
+    <flowSpacing
+      value="6px" />
+  </Profile>
+  <!-- Individual filter button -->
+  <Profile name="fabrix_filterButton" extends="baseReference"
+    with="anchorTopLeft">
+    <size value="180px 36px" />
+    <imageColor value="0.033 0.033 0.033 1" />
+    <imageFocusedColor value="0.16 0.22 0.10 0.95" />
+    <borderColor
+      value="0.35 0.40 0.32 1" />
+    <borderWidth value="2px" />
+    <textSize value="15px" />
+    <textBold
+      value="true" />
+    <textColor value="1 1 1 1" />
+    <textFocusedColor
+      value="0.68 0.96 0.08 1" />
+    <textHighlightedColor value="0.68 0.96 0.08 1" />
+    <textAlignment value="center" />
+    <textVerticalAlignment
+      value="middle" />
+  </Profile>
+  <Profile name="fabrix_poolSectionHeader" extends="emptyPanel" with="anchorTopLeft">
+    <size value="480px 100px" />
+  </Profile>
+
+  <!-- filter column between category list and worker list -->
+  <Profile name="fabrix_filterColumn" extends="fabrix_filterBox">
+    <size value="180px 176px" />
+    <flowDirection value="vertical" />
+    <flowSpacing value="8px" />
+  </Profile>
+  <!-- Auto-Modus switch: small version of the game's settings switch -->
+  <Profile name="fabrix_autoModeButtonLeft" extends="fs25_binaryOptionLeft" with="anchorStretchingYLeft">
+    <textSize value="13px" />
+  </Profile>
+  <Profile name="fabrix_autoModeButtonRight" extends="fs25_binaryOptionLeft" with="anchorStretchingYRight">
+    <position value="-10px 0px" />
+    <textSize value="13px" />
+  </Profile>
+  <Profile name="fabrix_autoModeOption" extends="fs25_settingsBinaryOption" with="anchorTopLeft">
+    <size value="150px 35px" />
+    <position value="0px 0px" />
+    <defaultProfileButtonLeft value="fabrix_autoModeButtonLeft" />
+    <defaultProfileButtonRight value="fabrix_autoModeButtonRight" />
+  </Profile>
+
+  <Profile name="fabrix_visitLeft" extends="buttonBack" with="anchorBottomLeft">
+    <position value="1110px 0px" />
+    <textColor value="1 1 1 1" />
+  </Profile>
+
+</GUIProfiles>
