@@ -21,7 +21,7 @@ This mod may not be copied, in whole or in part, into other mods or otherwise pu
 
 ## Installation
 
-1. Download the mod ZIP from the official ModHub
+1. Download the mod ZIP from the official ModHub or from this repository
 2. Copy it to your Farming Simulator 25 mods folder (`Documents/My Games/FarmingSimulator2025/mods`)
 3. Enable FabriX when loading your savegame
 4. Open the FabriX menu in-game with **K**. You can change the key binding in the game settings
