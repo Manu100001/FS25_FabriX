@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf-8'?>
+<l10n>
+    <translationContributors>Manu100001</translationContributors>
+    <texts>
+        <!-- Money types and Finance Menu Labels -->
+        <text name="finance_fabrixTax" text="Property tax" />
+        <text name="finance_fabrixWater" text="Water costs" />
+        <text name="finance_fabrixElectricity" text="Electricity costs" />
+        <text name="finance_fabrixTransportation" text="Transportation costs" />
+        <text name="finance_fabrixSalary" text="Wages &amp; salaries" />
+        <text name="finance_fabrixSeverance" text="Severance payments" />
+        <text name="finance_fabrixHiring" text="Recruitment" />
+        <text name="finance_fabrixSchool" text="Training" />
+        <text name="finance_fabrixPenalty" text="Penalty payments" />
+
+        <!-- Input Actions -->
+        <text name="fabrix_action_open_gui" text="Open FabriX" />
+        <text name="input_FABRIX_OPEN_GUI" text="Open FabriX" />
+
+        <!-- Factory: Level & Upgrade -->
+        <text name="fabrix_production_level" text="Level %d %d/%d XP" />
+        <text name="fabrix_production_level_max" text="Level %d (MAX) %d XP" />
+        <text name="fabrix_upgrade_factory_button_text" text="Upgrade factory" />
+        <text name="fabrix_upgrade_factory_xp_missing" text="The factory still has too little XP: %d/%d" />
+        <text name="fabrix_upgrade_factory_money_missing" text="Not enough money!&#10;&#10;Costs: %s, Account balance: %s" />
+        <text name="fabrix_upgrade_factory" text="Would you like to upgrade '%s' to Level %d?&#10;&#10;Cost: %s, Duration: %s month(s)" />
+        <text name="fabrix_upgrade_factory_confirmed" text="Factory upgrade started. Production is not possible during the renovation." />
+        <text name="fabrix_upgrade_factory_onRenovation1" text="Factory is being renovated!" />
+        <text name="fabrix_upgrade_factory_onRenovation2" text="Blocked for %d hour(s)" />
+        <text name="fabrix_upgrade_factory_requires_meister" text="Attention: Level 3 factories absolutely require a Master (level 7-9) in the factory leadership to be able to produce!" />
+        <text name="fabrix_upgrade_factory_requires_betriebsleiter" text="Attention: Level 5 factories absolutely require a Director (level 10) in the factory leadership to be able to produce!" />
+
+        <!-- Factory: Notifications -->
+        <text name="fabrix_renovation_finished" text="FabriX: &apos;%s&apos; has finished its renovation! New level: %d" />
+        <text name="fabrix_renovation_finished_info" text="FabriX: Production of '%s' must be actively restarted" />
+        <text name="fabrix_upgrade_possible" text="FabriX: &apos;%s&apos; has reached %d XP. Upgrade to a new level possible" />
+
+        <!-- Logging -->
+        <text name="fabrix_savegame_directory_missing" text="[FabriX]: Savegame directory could not be found - the savegame has probably not been saved yet and was just created." />
+        <text name="fabrix_xml_empty" text="[FabriX]: Loaded FabriX.xml is empty!" />
+        <text name="fabrix_error_savegame_dir" text="[FabriX]: Savegame directory does not exist, FabriX.xml cannot be saved" />
+        <text name="fabrix_xml_creation_failed_when_saving" text="[FabriX]: XML file could not be created" />
+
+        <!-- Worker: Notifications -->
+        <text name="fabrix_worker_retired" text="%s has reached retirement age and has now left the company" />
+        <text name="fabrix_worker_dismissed" text="%s has been dismissed and has now left the company" />
+        <text name="fabrix_worker_left" text="%s has left the company" />
+        <text name="fabrix_worker_self_resigned" text="%s has resigned (%s). With a counter-offer you may be able to keep them." />
+        <text name="fabrix_worker_recovered" text="%s has recovered and can be assigned again" />
+        <text name="fabrix_worker_training_finished" text="%s has completed training: now %s (level %d)!" />
+        <text name="fabrix_worker_training_ready" text="%s is ready for the next training" />
+        <text name="fabrix_worker_training_enrolled" text="%s has been enrolled in training (%d months)" />
+        <text name="fabrix_worker_level_up" text="%s %s has been promoted to level %d!" />
+        <text name="fabrix_worker_title" text="%s %s" />
+        <text name="fabrix_worker_azubi_penalty" text="%s has been an apprentice for 4 years and is not yet fully trained - penalty payment due" />
+        <text name="fabrix_worker_azubi_left" text="%s has not completed their training and is looking for a new company - severance payment due" />
+        <text name="fabrix_worker_counter_offer_accepted" text="%s accepts your counter-offer and stays with the company" />
+        <text name="fabrix_worker_counter_offer_rejected" text="%s turns down your counter-offer and leaves the company as planned" />
+
+        <!-- Worker: Sick Reasons -->
+        <text name="fabrix_worker_sick_cow" text="%s was kicked by a cow and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_flu" text="%s has the flu and called in sick for %d day(s)" />
+        <text name="fabrix_worker_sick_cold" text="%s has a cold and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_back" text="%s threw out their back and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_stomach" text="%s has a stomach bug and will stay close to the toilet for %d day(s)" />
+        <text name="fabrix_worker_sick_toe" text="%s sprained a toe and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_wasp" text="%s was stung by a wasp and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_wheelbarrow" text="%s tipped over with the wheelbarrow and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_tooth" text="%s has a toothache and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_hayfever" text="%s has hay fever and will be sneezing around for %d day(s)" />
+        <text name="fabrix_worker_sick_sunburn" text="%s got sunburnt during a nap and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_cat" text="%s tripped over the farm cat and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_goat" text="%s was chased across the yard by a goat and sprained an ankle – out for %d day(s)" />
+        <text name="fabrix_worker_sick_bees" text="%s tried to help the beekeeper and got stung several times – out for %d day(s)" />
+        <text name="fabrix_worker_sick_ladder" text="%s fell off the ladder picking apples and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_rake" text="%s stepped on a rake and took the handle to the face – out for %d day(s)" />
+        <text name="fabrix_worker_sick_manure" text="%s slipped into the slurry pit and needs %d day(s) of serious scrubbing" />
+        <text name="fabrix_worker_sick_rooster" text="%s was attacked by the farm rooster and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_cowslip" text="%s slipped in the cow barn and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_horn" text="%s was caught by a cow&apos;s horn and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_horse" text="%s was kicked by a horse and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_dog" text="%s was bitten by the neighbour&apos;s dog and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_pumpkin" text="%s dropped a pumpkin on their foot and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_nettles" text="%s fell into the stinging nettles and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_migraine" text="%s has a migraine and called in sick for %d day(s)" />
+        <text name="fabrix_worker_sick_coldroom" text="%s accidentally locked themselves in the cold room and now has a cold for %d day(s)" />
+        <text name="fabrix_worker_sick_stool" text="%s fell off the milking stool and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_fence" text="%s got a shock from the electric fence and now has heart palpitations – out for %d day(s)" />
+        <text name="fabrix_worker_sick_molehill" text="%s stepped into a molehill and twisted an ankle – out for %d day(s)" />
+        <text name="fabrix_worker_sick_neck" text="%s got a stiff neck reversing the trailer and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_deaf" text="%s is temporarily deaf from the combine noise and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_sheep" text="%s was knocked over by a sheep during shearing and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_chainsaw" text="%s was injured by the chainsaw and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_feedsack" text="%s pulled a muscle carrying a feed sack and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_headache" text="%s has a bad headache and called in sick for %d day(s)" />
+        <text name="fabrix_worker_sick_backache" text="%s has back pain and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_hammer" text="%s hit their thumb with a hammer building a fence – out for %d day(s)" />
+        <text name="fabrix_worker_sick_hose" text="%s tripped over the garden hose and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_splinter" text="%s got a splinter chopping wood and it got infected – out for %d day(s)" />
+        <text name="fabrix_worker_sick_dust" text="%s has pink eye from the threshing dust and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_tractorstep" text="%s missed the last step getting off the tractor and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_heat" text="%s collapsed in the heat on the field and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_barbedwire" text="%s got caught on the barbed wire and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_trampoline" text="%s underestimated the kids&apos; trampoline and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_pitchfork" text="%s got tennis elbow from swinging the pitchfork and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_pneumonia" text="%s has pneumonia and called in sick for %d day(s)" />
+        <text name="fabrix_worker_sick_bull" text="%s tried to take a selfie with the bull and got launched over the fence – out for %d day(s)" />
+        <text name="fabrix_worker_sick_bale" text="%s got flattened by a toppling round bale and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_tractordoor" text="%s banged the tractor door on their head and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_alpaca" text="%s got spat at by the alpaca and has conjunctivitis – out for %d day(s)" />
+        <text name="fabrix_worker_sick_yawn" text="%s dislocated their jaw while yawning and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_cowtail" text="%s got slapped by a cow&apos;s tail while milking and will be out for %d day(s)" />
+        <text name="fabrix_worker_sick_fleas" text="%s caught fleas from the farm dog and needs %d day(s) of delousing" />
+        <text name="fabrix_worker_sick_haircut" text="%s ruined their haircut with the hedge trimmer and won&apos;t leave the house for %d day(s)" />
+        <text name="fabrix_worker_sick_udder" text="%s tried milk straight from the udder and now has an upset stomach – out for %d day(s)" />
+        <text name="fabrix_worker_sick_silo" text="%s climbed the silo for better phone signal and fell off – out for %d day(s)" />
+        <text name="fabrix_worker_sick_mower" text="%s drove the ride-on mower into the garden pond and caught a cold – out for %d day(s)" />
+        <text name="fabrix_worker_sick_chicken" text="%s dived into the coop trying to catch a chicken and bruised a shoulder – out for %d day(s)" />
+        <text name="fabrix_worker_sick_silage" text="%s collapsed from the smell of the silage and will be out for %d day(s)" />
+
+        <!-- Worker: Validation Errors -->
+        <text name="fabrix_worker_invalid_data" text="Invalid data" />
+        <text name="fabrix_worker_in_training" text="This employee is currently in training" />
+        <text name="fabrix_worker_sick_blocked" text="This employee is sick" />
+        <text name="fabrix_worker_already_worked" text="This employee has already worked today" />
+        <text name="fabrix_worker_azubi_level3" text="Apprentices can only be deployed from factory level 3." />
+        <text name="fabrix_worker_azubi_dayshift" text="Apprentices may only work the day shift (08:00 - 16:00)." />
+        <text name="fabrix_worker_only_facharbeiter" text="Only skilled workers can fill this position" />
+        <text name="fabrix_worker_only_meister" text="Only a Master (level 7-9) can fill the Master slot" />
+        <text name="fabrix_worker_only_betriebsleiter" text="Only a Director (level 10) can fill this slot" />
+        <text name="fabrix_worker_unknown_slot" text="Unknown slot" />
+        <text name="fabrix_gui_no_permission" text="You do not have permission to manage productions." />
+
+        <!-- Worker: Time Formats -->
+        <text name="fabrix_worker_notice_none" text="Cannot be dismissed" />
+        <text name="fabrix_worker_notice_month_end" text="At the end of the month" />
+        <text name="fabrix_worker_notice_months" text="%d months notice period" />
+        <text name="fabrix_worker_months" text="%d months" />
+        <text name="fabrix_worker_years" text="%d years" />
+
+        <!-- Categories & Roles -->
+        <text name="fabrix_category_azubi" text="Apprentice" />
+        <text name="fabrix_category_erntehelfer" text="Seasonals" />
+        <text name="fabrix_category_facharbeiter" text="Skilled Worker" />
+        <text name="fabrix_category_azubis" text="Apprentices" />
+        <text name="fabrix_role_meister" text="Master" />
+        <text name="fabrix_role_geselle" text="Journeyman" />
+        <text name="fabrix_role_betriebsleiter" text="Director" />
+        <text name="fabrix_role_meister_range" text="Master (level 7-9)" />
+        <text name="fabrix_role_betriebsleiter_range" text="Director (level 10)" />
+
+        <!-- GUI: Common -->
+        <text name="fabrix_gui_level" text="Level %d" />
+        <text name="fabrix_gui_worker_market_info" text="Level %d · %d years · %s/month" />
+
+        <!-- GUI: Market -->
+        <text name="fabrix_gui_hire_confirm" text="Do you want to hire %s (level %d, %d years) for %s/month?&#10;Hiring fee: %s" />
+        <text name="fabrix_gui_hire_title" text="Hire employee" />
+        <text name="fabrix_gui_hire_no_money" text="Not enough money to hire (%s required)." />
+
+        <!-- GUI: Shift Plan -->
+        <text name="fabrix_gui_slot_free" text="+ free" />
+        <text name="fabrix_gui_remove_shift_confirm" text="Do you want to remove %s from this shift?" />
+        <text name="fabrix_gui_remove_shift_warning" text="Warning: This helper has already started their shift and cannot be reassigned elsewhere today." />
+        <text name="fabrix_gui_remove_shift_title" text="Remove helper" />
+        <text name="fabrix_gui_clear_shifts_title" text="Clear shifts" />
+        <text name="fabrix_gui_no_workers_available" text="No suitable helpers available." />
+        <text name="fabrix_gui_choose_category_text" text="Which category?" />
+        <text name="fabrix_gui_choose_category_title" text="Choose category" />
+        <text name="fabrix_gui_worker_option" text="%s · Lvl %d · %d yrs · %s" />
+        <text name="fabrix_gui_no_workers_category" text="No suitable helpers in this category." />
+        <text name="fabrix_gui_choose_worker_text" text="Choose a helper:" />
+        <text name="fabrix_gui_choose_worker_title" text="Choose helper" />
+        <text name="fabrix_gui_slot_required" text="+ required" />
+        <text name="fabrix_gui_remove_role_confirm" text="Do you want to remove %s from the '%s' position?&#10;&#10;Warning: Without a %s the factory no longer produces." />
+        <text name="fabrix_gui_remove_role_title" text="Clear position" />
+        <text name="fabrix_gui_role_worker_option" text="%s · %s · Lvl %d · %d yrs" />
+        <text name="fabrix_gui_no_free_role" text="No free %s available." />
+        <text name="fabrix_gui_choose_leader_text" text="Choose a leader:" />
+        <text name="fabrix_gui_choose_leader_title" text="Fill position" />
+        <text name="fabrix_gui_assign_failed" text="Assignment not possible" />
+
+        <!-- GUI: Employee Detail -->
+        <text name="fabrix_gui_detail_unassigned" text="Unassigned" />
+        <text name="fabrix_gui_shift_early" text="Early shift" />
+        <text name="fabrix_gui_shift_day" text="Day shift" />
+        <text name="fabrix_gui_shift_late" text="Late shift" />
+        <text name="fabrix_gui_shift_generic" text="Shift %d" />
+        <text name="fabrix_gui_detail_in_training_months" text="%d month(s) left in training" />
+        <text name="fabrix_gui_detail_in_training" text="In training" />
+        <text name="fabrix_gui_salary_per_month" text="%s/month" />
+        <text name="fabrix_gui_detail_dismissed_months" text="Dismissed – %d month(s) left" />
+        <text name="fabrix_gui_detail_self_resigned_months" text="Resigned – %d month(s) left" />
+        <text name="fabrix_gui_xp" text="%d XP" />
+        <text name="fabrix_gui_xp_progress" text="%d / %d XP" />
+
+        <!-- GUI: Employee Actions (Dismissal, Counter-Offer, Training) -->
+        <text name="fabrix_gui_btn_withdraw_notice" text="WITHDRAW NOTICE" />
+        <text name="fabrix_gui_btn_counter_offer" text="COUNTER-OFFER" />
+        <text name="fabrix_gui_btn_dismiss" text="DISMISS" />
+        <text name="fabrix_gui_btn_train" text="TRAIN (%d mo.)" />
+        <text name="fabrix_gui_btn_clear_shifts" text="REMOVE ALL" />
+        <text name="fabrix_gui_btn_visit" text="VISIT" />
+        <text name="fabrix_gui_clear_shifts_confirm" text="Do you want to remove all helpers from %s?" />
+        <text name="fabrix_gui_clear_shifts_warning" text="Warning: workers who have already started their shift cannot be assigned elsewhere today." />
+        <text name="fabrix_gui_azubi_no_dismiss" text="Apprentices cannot be dismissed. The training must be completed first." />
+        <text name="fabrix_gui_withdraw_confirm" text="Withdraw dismissal of %s?&#10;&#10;Cost: %s" />
+        <text name="fabrix_gui_withdraw_title" text="Withdraw dismissal" />
+        <text name="fabrix_gui_counter_offer_title" text="Counter-offer" />
+        <text name="fabrix_gui_counter_offer_text" text="%s has resigned. What raise do you offer? Whether they accept is uncertain, and you only get one try." />
+        <text name="fabrix_gui_counter_offer_option" text="+%d %%: %s per month" />
+        <text name="fabrix_gui_dismiss_confirm" text="Do you want to dismiss %s?&#10;&#10;%s&#10;Severance: %s" />
+        <text name="fabrix_gui_dismiss_title" text="Dismiss employee" />
+        <text name="fabrix_gui_withdraw_no_money" text="Not enough money for the withdrawal (%s required)." />
+        <text name="fabrix_gui_withdraw_done" text="Dismissal of %s withdrawn." />
+        <text name="fabrix_gui_train_confirm" text="Enroll %s in training?&#10;&#10;Duration: %d months&#10;Afterwards: %s&#10;Cost: %s&#10;&#10;During training the employee cannot be deployed." />
+        <text name="fabrix_gui_train_title" text="Start training" />
+        <text name="fabrix_gui_train_no_money" text="Not enough money for the training (%s required)." />
+
+        <!-- GUI: Overview Alerts -->
+        <text name="fabrix_gui_alert_no_leader" text="%s: no %s – factory is not producing!" />
+        <text name="fabrix_gui_alert_free_slots" text="%s: %d of %d slots free" />
+        <text name="fabrix_gui_alert_leaving" text="%s is leaving the company in %d month(s)" />
+        <text name="fabrix_gui_alert_retiring" text="%s is retiring" />
+        <text name="fabrix_gui_alert_retiring_months" text="%s is retiring in %d month(s)" />
+        <text name="fabrix_gui_alert_pending_school" text="%d skilled workers waiting for training" />
+        <text name="fabrix_gui_alert_status_noStaff" text="%s: not producing - no staff in the current shift" />
+        <text name="fabrix_gui_alert_status_noRecipe" text="%s: no active recipes" />
+        <text name="fabrix_gui_alert_status_missing" text="%s: inputs missing (%s)" />
+        <text name="fabrix_gui_alert_status_full" text="%s: storage full" />
+        <text name="fabrix_gui_alert_status_low" text="%s: inputs running low (%s)" />
+        <text name="fabrix_gui_alert_unassigned_azubi" text="Apprentice %s is not assigned to a shift" />
+        <text name="fabrix_gui_alert_sick" text="%s is sick – %d day(s) left" />
+
+        <!-- GUI: Static Labels (FabriXGui.xml) -->
+        <text name="fabrix_gui_no_productions" text="You do not have any&#10;production sites yet." />
+        <text name="fabrix_gui_detail_sick_days" text="Sick – %d day(s) left" />
+        <text name="fabrix_gui_tab_overview" text="OVERVIEW" />
+        <text name="fabrix_gui_tab_shiftplan" text="SHIFT PLAN" />
+        <text name="fabrix_gui_tab_employees" text="EMPLOYEES" />
+        <text name="fabrix_gui_tab_market" text="JOB MARKET" />
+        <text name="fabrix_gui_ov_workforce" text="WORKFORCE" />
+        <text name="fabrix_gui_ov_workers_total" text="Total employees" />
+        <text name="fabrix_gui_ov_cat_erntehelfer" text="- Seasonals" />
+        <text name="fabrix_gui_ov_cat_geselle" text="- Journeyman" />
+        <text name="fabrix_gui_ov_cat_meister" text="- Master" />
+        <text name="fabrix_gui_ov_cat_betriebsleiter" text="- Director" />
+        <text name="fabrix_gui_ov_cat_azubis" text="- Apprentices" />
+        <text name="fabrix_gui_ov_assigned" text="Deployed / available" />
+        <text name="fabrix_gui_ov_in_school" text="In training" />
+        <text name="fabrix_gui_ov_trainable" text="Training available" />
+        <text name="fabrix_gui_ov_sick" text="Off sick" />
+        <text name="fabrix_gui_ov_resigning" text="Leaving" />
+        <text name="fabrix_gui_pool_section_resigning" text="RESIGNATION" />
+        <text name="fabrix_gui_ov_finances" text="FINANCES" />
+        <text name="fabrix_gui_ov_salary" text="Wage costs / month" />
+        <text name="fabrix_gui_ov_property_tax" text="Property tax / year" />
+        <text name="fabrix_gui_ov_cost_total" text="Total cost / month" />
+        <text name="fabrix_gui_ov_productions" text="PRODUCTIONS" />
+        <text name="fabrix_gui_ov_factories_total" text="Total factories" />
+        <text name="fabrix_gui_ov_slots_used" text="Occupied worker slots" />
+        <text name="fabrix_gui_ov_avg_productivity" text="Average productivity" />
+        <text name="fabrix_gui_ov_idle_factories" text="Idle factories" />
+        <text name="fabrix_gui_ov_action_needed" text="ACTION NEEDED" />
+        <text name="fabrix_gui_market_empty" text="No helpers available" />
+        <text name="fabrix_gui_pool_empty" text="No helpers in this category" />
+        <text name="fabrix_gui_pool_empty_filter" text="No helpers match this filter" />
+        <text name="fabrix_gui_market_empty_erntehelfer" text="No seasonal workers are currently available.&#10;Why not check back next month?" />
+        <text name="fabrix_gui_market_empty_facharbeiter" text="No skilled workers are currently available.&#10;Why not check back next month?" />
+        <text name="fabrix_gui_market_empty_azubis" text="No apprentices are currently available.&#10;The official start of apprenticeships is from July to September.&#10;Note that you need a factory with at least level 3 for this." />
+        <text name="fabrix_gui_filter_all" text="All" />
+        <text name="fabrix_gui_filter_geselle" text="Journeymen" />
+        <text name="fabrix_gui_filter_meister" text="Masters" />
+        <text name="fabrix_gui_filter_betriebsleiter" text="Directors" />
+        <text name="fabrix_gui_detail_age" text="Age" />
+        <text name="fabrix_gui_detail_level" text="Level" />
+        <text name="fabrix_gui_detail_productivity" text="Productivity" />
+        <text name="fabrix_gui_detail_xp" text="Experience" />
+        <text name="fabrix_gui_detail_hired" text="Employed since" />
+        <text name="fabrix_gui_detail_assigned" text="Deployed" />
+        <text name="fabrix_gui_detail_salary" text="Salary" />
+        <text name="fabrix_gui_detail_status" text="Status" />
+        <text name="fabrix_gui_lead_title" text="Factory leadership" />
+        <text name="fabrix_gui_auto_mode" text="AUTO mode" />
+        <text name="fabrix_gui_ov_notifications" text="NOTIFICATIONS" />
+        <text name="fabrix_gui_notify_progress" text="Promotion &amp; training" />
+        <text name="fabrix_gui_notify_sickness" text="Sickness" />
+        <text name="fabrix_gui_notify_staff" text="Staff" />
+        <text name="fabrix_status_renovation" text="Under renovation" />
+        <text name="fabrix_status_noStaff" text="No staff" />
+        <text name="fabrix_status_noRecipe" text="No active recipes" />
+        <text name="fabrix_status_missing" text="Inputs missing" />
+        <text name="fabrix_status_full" text="Storage full" />
+        <text name="fabrix_status_low" text="Inputs running low" />
+        <text name="fabrix_status_running" text="Running" />
+        <text name="fabrix_info_auto_on" text="Auto mode on" />
+        <text name="fabrix_info_shift" text="%d / %d slots - %d %% productivity" />
+        <text name="fabrix_info_unassigned" text="- (vacant)" />
+        <text name="fabrix_gui_lead_master" text="MASTER" />
+        <text name="fabrix_gui_lead_bl" text="DIRECTOR" />
+        <text name="fabrix_gui_btn_hire" text="HIRE" />
+        <text name="fabrix_gui_btn_train_default" text="TRAIN" />
+        <text name="fabrix_gui_level_all" text="Level: All" />
+        <text name="fabrix_gui_pool_section_training" text="TRAINING" />
+        <text name="fabrix_gui_pool_section_sick" text="SICK" />
+
+        <!-- Help: General -->
+        <text name="fabrix_help_category" text="FabriX" />
+
+        <!-- Help: Overview -->
+        <text name="fabrix_help_overview_title" text="FabriX - new gameplay for your productions" />
+        <text name="fabrix_help_overview_intro_title" text="What is FabriX?" />
+        <text name="fabrix_help_overview_intro_text" text="Until now, factories ran on autopilot: unload inputs, switch on, cash in. FabriX turns them into real businesses that challenge you as the director." />
+        <text name="fabrix_help_overview_before_tasks_title" text="What changes?" />
+        <text name="fabrix_help_overview_before_tasks_text" text="No more flat costs: your buildings consume real electricity and water. Monthly wages, transparent transport costs and the yearly property tax land on your bill, itemised exactly.&#10;&#10;Above all, your staff count: without employees, not a single wheel turns. Staff your shifts cleverly – the more experienced the team, the higher the output. Hire skilled workers, train apprentices and level up your people through experience points (XP). But watch out: more performance also means higher salary demands. If space runs out, you simply upgrade your factories." />
+        <text name="fabrix_help_overview_features_title" text="Your tasks" />
+        <text name="fabrix_help_overview_features_text" text="Keep your factories fully utilised at all times, because idle time burns hard cash. Coordinate shifts, manage training and keep your running costs firmly under control." />
+
+        <!-- Help: GUI -->
+        <text name="fabrix_help_gui_title" text="FabriX - GUI" />
+        <text name="fabrix_help_gui_open_title" text="Opening the menu" />
+        <text name="fabrix_help_gui_open_text" text="Press [K] to open and close your company headquarters (key binding can be changed in the control settings). The menu is divided into four sections: Overview, Shift plan, Employees and Job market." />
+        <text name="fabrix_help_gui_overview_title" text="Overview" />
+        <text name="fabrix_help_gui_overview_text" text="Your control center for all key figures: workforce size, active factories, shift utilisation, overall efficiency and running fixed costs at a glance.&#10;&#10;On top of that, the system raises the alarm immediately when there are bottlenecks: vacant shifts, missing Masters or Directors, sick notes, upcoming retirements or employees ready for training are reported directly. You also see immediately which factory is at a standstill – whether due to a lack of staff, inactive recipes, low inputs (below 20 %) or overflowing storage.&#10;&#10;Under &quot;Notifications&quot; you can switch off messages about promotion &amp; training, sickness and staff changes for yourself." />
+        <text name="fabrix_help_gui_shiftplan_title" text="Shift plan" />
+        <text name="fabrix_help_gui_shiftplan_text" text="Here you coordinate the three-shift system of your factories. Fill workplaces flexibly with staff, assign leaders to the factory and keep an eye on the productivity of every single shift in real time. At the top right you see the factory's experience and start the upgrade." />
+        <text name="fabrix_help_gui_employees_title" text="Employees" />
+        <text name="fabrix_help_gui_employees_text" text="The HR office: check level, experience, wage costs, age and workplace of your team. Send skilled workers on training, manage dismissals or renegotiate salaries if staff want to leave (chances of success vary). The “Sick” section shows all current staff absences." />
+        <text name="fabrix_help_gui_market_title" text="Job market" />
+        <text name="fabrix_help_gui_market_text" text="Recruit new staff from three applicant groups: seasonal workers (starting level 1–3), apprentices and skilled workers (usually Journeymen). Each placement costs a €250 hiring fee.&#10;&#10;Beware of hasty dismissals: quick “hire and fire” gets expensive, because severance payments are due on dismissal. From a business point of view, it often pays off to keep staff on the payroll even in weak months.&#10;&#10;The applicant pool is topped up monthly and completely renewed at every change of season (March, June, September, December). More factories attract more applicants.&#10;&#10;Special case apprentices: apprenticeships start exclusively from July to September. You need at least one factory at level 3, because apprentices strictly need a Master on site for supervision.&#10;&#10;In multiplayer, each farm has a completely separate job market and its own staff." />
+
+        <!-- Help: Employees -->
+        <text name="fabrix_help_employees_title" text="Employees &amp; shift work" />
+        <text name="fabrix_help_employees_shifts_title" text="Shift work" />
+        <text name="fabrix_help_employees_shifts_text" text="Factories produce 24/7 across three 8-hour shifts:&#10;Early shift: 00:00–08:00&#10;Day shift: 08:00–16:00&#10;Late shift: 16:00–24:00&#10;&#10;The available slots grow with the factory level. Staff can only work in one single shift per day – a change during or after a shift is blocked for that day.&#10;&#10;The shift output is the summed productivity of the workers present (100 % equals the standard speed of the base game). Three pros with 120 % throughput each therefore speed up production 3.6-fold. Vacant shifts mean the factory stands still." />
+        <text name="fabrix_help_employees_categories_title" text="Staff &amp; experience" />
+        <text name="fabrix_help_employees_categories_text" text="As soon as the lines are running, assigned employees gain experience (XP). With every level, their productivity and their salary demands rise.&#10;&#10;Seasonal workers form your flexible core workforce.&#10;Skilled workers follow the career path from Journeyman via Master to Director – indispensable, because larger factories strictly require leaders.&#10;Apprentices start cheap with low productivity. They work exclusively in the day shift of factories from level 3, under the supervision of a Master." />
+        <text name="fabrix_help_employees_seasonal_title" text="Seasonal workers" />
+        <text name="fabrix_help_employees_seasonal_text" text="Seasonal workers level up to level 10 and increase their output by almost 50 % along the way. Ideal for flexibly absorbing peaks in demand in standard factories." />
+        <text name="fabrix_help_employees_career_title" text="Career paths" />
+        <text name="fabrix_help_employees_career_text" text="Once they have enough practical experience, apprentices complete three school phases automatically and graduate as Journeymen.&#10;&#10;You send experienced skilled workers on further training manually:&#10;Journeyman to Master: 6-month course (€3,000)&#10;Master to Director: 8-month course (€6,000)&#10;&#10;During the course, shift work pauses with full continued pay. Afterwards, you assign the skilled worker again.&#10;&#10;No apprentices available on the job market? They only apply in late summer (July–September) and require at least one factory of your own at level 3 that is authorised to train." />
+        <text name="fabrix_help_employees_salary_title" text="Wage costs" />
+        <text name="fabrix_help_employees_salary_text" text="Salaries are settled monthly. The base salary is €100 for seasonal workers and €80 for apprentices and skilled workers, calculated before level surcharges.&#10;&#10;Recruits from the market demand hefty salary surcharges: seasonal workers +10–40 %, skilled workers +10–70 %. Apprentices keep their low base wage even after further training.&#10;&#10;Example Director: home-grown: €176/month | poached from the job market: €194–299/month." />
+        <text name="fabrix_help_employees_tip_title" text="Strategy: train vs. hire" />
+        <text name="fabrix_help_employees_tip_text" text="Skilled workers you train yourself save huge sums in the long run. In addition, Masters and Directors are extremely rare on the open market (only approx. 6 % of applicants).&#10;&#10;Development time:&#10;Apprentice to Journeyman: approx. 3 years&#10;&#10;So secure apprentices early, as soon as your first factory reaches level 3, and make sure they get regular shifts." />
+        <text name="fabrix_help_employees_leaders_title" text="Leadership roles" />
+        <text name="fabrix_help_employees_leaders_text" text="Large factories require leadership structures (they work outside the regular shift slots):&#10;Master (from factory level 3, level 7–9): actively lends a hand in the day shift and enables apprentice training.&#10;Director (from factory level 5, level 10): purely administrative – cuts the site's property tax drastically by 75 %.&#10;&#10;Level 5 factories require both a Master and a Director. If either role is missing, the entire factory grinds to a halt." />
+        <text name="fabrix_help_employees_dismissal_title" text="Dismissal &amp; retirement" />
+        <text name="fabrix_help_employees_dismissal_text" text="At 65, the well-earned retirement follows, without severance. If, on the other hand, you dismiss employees for operational reasons, a severance of €50 per month of employment is due at the end of the notice period (wages continue until then; XP gain and courses are blocked).&#10;&#10;Notice periods: seasonal workers (end of month), Journeyman (3 months), Master (6 months), Director (9 months). Apprentices are protected against dismissal.&#10;&#10;Regret is costly: withdrawing a dismissal is expensive (seasonal worker €1,500, Journeyman €3,000, Master €6,000, Director €10,000)." />
+        <text name="fabrix_help_employees_absence_title" text="Sickness &amp; staff turnover" />
+        <text name="fabrix_help_employees_absence_text" text="Short-notice sick leave blocks shift or leadership slots while wages continue to be paid. If the Master is sick and there is no replacement, the factory stands still. Recovered employees must be put back on the roster manually.&#10;&#10;Unplanned idle time provokes resignations: neglected staff throw in the towel (without severance). Prevent them from leaving with a salary increase (+10 % to +100 %). You have exactly one negotiation attempt – if you decline or the offer fails, the skilled worker is gone." />
+        <text name="fabrix_help_employees_apprentice_title" text="Training obligation" />
+        <text name="fabrix_help_employees_apprentice_text" text="Regular training takes 3 years. If you leave apprentices to rot on the bench, the law steps in: after 4 years, a €500 late penalty is due. After 5 years, the apprentice drops out – costing you a €2,500 fine plus €15,000 compensation. Shift assignments are mandatory!" />
+
+        <!-- Help: Factories -->
+        <text name="fabrix_help_factories_title" text="Factories &amp; upgrades" />
+        <text name="fabrix_help_factories_xp_title" text="Experience &amp; expansion" />
+        <text name="fabrix_help_factories_xp_text" text="Active factories with staffed shifts gain up to 10 XP per month. As soon as the XP bar is full, you can modernise the site for a fee. You start the upgrade in the shift plan with the X key.&#10;&#10;Attention, construction phase: during the renovation, production stops completely. After completion, the factory must be reactivated manually in the production menu." />
+        <text name="fabrix_help_factories_benefits_title" text="Upgrade benefits" />
+        <text name="fabrix_help_factories_benefits_text" text="Each level enlarges your storage, creates more workplaces per shift and, from level 3, unlocks training your own young talent." />
+        <text name="fabrix_help_factories_levels_title" text="Upgrade levels" />
+        <text name="fabrix_help_factories_levels_text" text="Level 1: base factory | storage 1.0x | 1 slot/shift&#10;Level 2: 80 XP | €30,000 | 1 month renovation | storage 2.0x | 2 slots/shift&#10;Level 3: 110 XP | €80,000 | 2 months renovation | storage 3.5x | 3 slots/shift + Master&#10;Level 4: 210 XP | €120,000 | 3 months renovation | storage 5.0x | 4 slots/shift + Master&#10;Level 5: 330 XP | €250,000 | 3 months renovation | storage 7.5x | 5 slots/shift + Master &amp; Director" />
+        <text name="fabrix_help_factories_important_title" text="Leadership requirement" />
+        <text name="fabrix_help_factories_important_text" text="Upgrade cost trap: from level 3 the factory strictly requires a Master, from level 5 additionally a Director. If the leaders are missing, productivity drops to a flat 0 %. Be sure to plan suitable skilled workers before the upgrade." />
+
+
+        <!-- Help: Auto mode -->
+        <text name="fabrix_help_auto_title" text="Auto Mode" />
+        <text name="fabrix_help_auto_function_text" text="From factory level 2, automatic shift scheduling is available to you (can be activated separately for each factory). The system fills free slots on its own by priority: first apprentices, then skilled workers and finally seasonal workers – each sorted by highest individual productivity.&#10;&#10;If staff are absent due to sickness or courses, a replacement moves up automatically." />
+        <text name="fabrix_help_auto_leaders_title" text="Leadership &amp; training" />
+        <text name="fabrix_help_auto_leaders_text" text="Leadership positions have top priority: if a Master or Director post becomes vacant, the system fills it immediately. If necessary, leaders are pulled from regular shifts for this (even from other factories). An active factory leadership, however, is never touched.&#10;&#10;Priority for apprentices: from level 3, Auto mode automatically pushes available apprentices into the day shift. If it is fully staffed, a regular employee has to make way – they move either to another free slot or back into the staff pool." />
+        <text name="fabrix_help_auto_notes_title" text="Important rules" />
+        <text name="fabrix_help_auto_notes_text" text="Manual changes lock the slot: if you remove staff by hand, Auto mode only acts on this slot again after the next day change (midnight).&#10;&#10;Construction-site logic: factories under renovation receive no new staff; however, the system can move employees who are unused there to other factories.&#10;&#10;Deactivation: if you switch the mode off or clear all slots via the button, automatic scheduling stops immediately." />
+        <text name="fabrix_help_auto_costs_title" text="Administration costs" />
+        <text name="fabrix_help_auto_costs_text" text="Automated scheduling costs €150 per factory and month. The amount is settled at the end of the month together with the salaries." />
+
+        <!-- Help: Production Revamp compatibility -->
+        <text name="fabrix_help_revamp_title" text="Compatibility with the Production Revamp mod" />
+        <text name="fabrix_help_revamp_compatibility_title" text="Compatibility" />
+        <text name="fabrix_help_revamp_compatibility_text" text="FabriX and Production Revamp can be used at the same time. FabriX (version 1.0.0.0) was tested with Production Revamp (version 1.0.0.0). However, completely error-free operation cannot be guaranteed." />
+        <text name="fabrix_help_revamp_limitations_title" text="Known limitations" />
+        <text name="fabrix_help_revamp_limitations_text" text="Transportation costs: When used together, Production Revamp handles distribution between productions and calculates transportation costs. Therefore, the FabriX transportation-cost entry remains empty.&#10;&#10;Renovation: Production lines with “autoStart” or “hideFromMenu” in their production XML cannot be switched off by Production Revamp and may keep running during a factory upgrade." />
+
+        <!-- Help: Other -->
+        <text name="fabrix_help_other_title" text="Good to know" />
+        <text name="fabrix_help_other_costs_title" text="Financial overview &amp; consumption" />
+        <text name="fabrix_help_other_costs_text" text="Full transparency instead of flat rates: FabriX itemises all operating and staff costs as separate entries in your financial overview.&#10;&#10;Billing intervals:&#10;Monthly: salaries as well as electricity (€0.35/kWh) and water (€5.45/m³), calculated exactly according to active recipes.&#10;Daily: logistics costs in “Distribute” mode.&#10;Yearly: property tax (€80–800 per factory; a Director reduces it by 75 %).&#10;As needed: hiring (€250), courses (€3,000 / €6,000), upgrades (€30,000–250,000 as investment), severance and late penalties.&#10;&#10;Compatibility: base game factories use fixed consumption values for electricity and water. For factories from external mods, FabriX automatically determines dynamic consumption amounts." />
+        <text name="fabrix_help_other_production_title" text="Checklist: factory at a standstill?" />
+        <text name="fabrix_help_other_production_text" text="When the lines stand still, check the following points:&#10;1. Inputs: does the input storage have enough supply?&#10;2. Capacity: is the output storage full?&#10;3. Status: are the relevant recipes set to active in the menu?&#10;4. Shift plan: is the current shift fully staffed?&#10;5. Leadership: is the Master missing from level 3 or the Director from level 5?" />
+        <text name="fabrix_help_other_limits_title" text="Multiplayer &amp; status" />
+        <text name="fabrix_help_other_limits_text" text="Multiplayer: system messages follow the language setting of the host or server.&#10;FabriX was successfully testen on Dedicated servers.&#10;Despite intensive testing, bugs cannot always be ruled out." />
+        <text name="fabrix_help_other_feedback_title" text="Feedback &amp; support" />
+        <text name="fabrix_help_other_feedback_text" text="Found bugs, feedback on balance or new ideas?&#10;Feel free to open a detailed issue directly in the GitHub repository: https://github.com/Manu100001/FS25_FabriX" />
+
+        <!-- Helper Names Pool -->
+        <text name="ui_helper_name_pool_male" text="Aaron,Abel,Abraham,Adam,Adrian,Aidan,Alan,Albert,Alec,Alex,Alexander,Alfie,Alfred,Amos,Andrew,Andy,Anthony,Archer,Archie,Arlo,Arthur,Asher,Austin,Barnaby,Barry,Beau,Beckett,Ben,Benjamin,Bennett,Bernard,Bill,Billy,Blake,Bob,Bobby,Brad,Bradley,Brady,Brandon,Brendan,Brent,Brett,Brian,Brody,Bruce,Bryan,Bryce,Caleb,Callum,Calvin,Cameron,Carl,Carter,Casey,Cedric,Chad,Charles,Charlie,Chase,Christian,Christopher,Clarence,Clark,Clayton,Clifford,Clifton,Clinton,Cody,Colby,Cole,Colin,Connor,Cooper,Corey,Craig,Cruz,Curtis,Dallas,Damian,Daniel,Danny,Darrell,Darren,David,Dawson,Dean,Declan,Dennis,Derek,Devon,Dexter,Dominic,Donald,Donovan,Douglas,Drew,Duncan,Dustin,Dwayne,Dylan,Earl,Easton,Edgar,Edmund,Edward,Edwin,Eli,Elijah,Elliot,Ellis,Emmett,Eric,Ethan,Evan,Everett,Ezekiel,Felix,Finley,Fletcher,Forrest,Francis,Frank,Franklin,Fred,Freddie,Frederick,Gabriel,Gage,Gareth,Garrett,Gary,Gavin,Geoffrey,George,Gerald,Gilbert,Glen,Gordon,Graham,Grant,Greg,Gregory,Harold,Harrison,Harry,Harvey,Hayden,Heath,Henry,Herbert,Holden,Howard,Hudson,Hugh,Hugo,Hunter,Ian,Isaac,Isaiah,Ivan,Jack,Jackson,Jacob,James,Jamie,Jared,Jason,Jasper,Jay,Jeff,Jeffrey,Jeremy,Jerome,Jesse,Jimmy,Joe,Joel,John,Johnny,Jon,Jonah,Jonathan,Jordan,Joseph,Josh,Joshua,Jude,Julian,Justin,Kai,Keanu,Keith,Kenneth,Kevin,Kieran,Kyle,Lance,Lawrence,Lee,Leo,Leon,Leonard,Levi,Liam,Lincoln,Logan,Louis,Lucas,Luke,Maddox,Malcolm,Marcus,Mark,Marlon,Marshall,Martin,Mason,Matteo,Matthew,Max,Maxwell,Micah,Michael,Miles,Milo,Milton,Mitchell,Morgan,Nathan,Nathaniel,Neil,Nicholas,Noah,Nolan,Oliver,Oscar,Owen,Patrick,Paul,Peter,Philip,Phillip,Quinn,Raymond,Reece,Richard,Robert,Robin,Roger,Ronald,Rowan,Roy,Ryan,Sam,Samuel,Scott,Sean,Sebastian,Seth,Shane,Simon,Spencer,Stanley,Stephen,Steven,Stuart,Tanner,Tate,Taylor,Terrence,Terry,Theodore,Thomas,Timothy,Toby,Todd,Tom,Tommy,Tony,Travis,Trent,Trevor,Trey,Troy,Tucker,Tyler,Tyson,Vance,Vaughn,Vernon,Victor,Vincent,Wade,Walker,Wallace,Walter,Warren,Wayne,Wesley,Weston,Will,William,Willie,Wilson,Wyatt,Xander,Xavier,Zachary,Zack,Zane,Zeke" />
+        <text name="ui_helper_name_pool_female" text="Abigail,Ada,Adelaide,Adele,Adriana,Agnes,Aileen,Aisha,Alana,Alex,Alexa,Alexandra,Alexandria,Alexis,Alice,Alicia,Alison,Alissa,Alyssa,Amanda,Amber,Amelia,Amy,Angela,Angelica,Angelina,Angie,Anita,Ann,Anna,Annabelle,Anne,Annette,Annie,April,Arabella,Aria,Ariana,Arianna,Ariel,Ashley,Audrey,Aurora,Ava,Aveline,Avery,Beatrice,Beatrix,Becky,Bella,Bernadette,Beth,Bethany,Betsy,Betty,Beverly,Bianca,Blair,Blake,Bonnie,Brenda,Brianna,Bridget,Britney,Brittany,Brooke,Caitlin,Callie,Camila,Camille,Candice,Cara,Carly,Carmen,Carol,Caroline,Carolyn,Carrie,Cassandra,Cassie,Catherine,Cathy,Cecilia,Celia,Charlotte,Chelsea,Cheryl,Chloe,Christina,Christine,Claire,Clara,Clare,Clarissa,Claudia,Clementine,Cleo,Cora,Coralie,Courtney,Cynthia,Daisy,Dakota,Dana,Daniella,Danielle,Daphne,Darcey,Darlene,Dawn,Debbie,Deborah,Deidre,Delilah,Denise,Diana,Diane,Donna,Dora,Doris,Dorothy,Eden,Edith,Edna,Eileen,Elaine,Eleanor,Elena,Eliana,Elisa,Elisabeth,Elise,Eliza,Elizabeth,Ella,Ellen,Ellie,Eloise,Elsa,Elsie,Elspeth,Emily,Emma,Emmeline,Enid,Erica,Erin,Esme,Esther,Ethel,Eva,Evangeline,Eve,Evelyn,Evie,Faith,Faye,Felicity,Fern,Fiona,Flora,Florence,Frances,Francesca,Francine,Freya,Gail,Gemma,Georgia,Georgina,Geraldine,Gertrude,Gillian,Gina,Giselle,Gladys,Glenda,Gloria,Grace,Gracie,Gwen,Gwendolyn,Hailey,Hannah,Harriet,Hazel,Heather,Heidi,Helen,Helena,Henrietta,Hilary,Holly,Hope,Ida,Imogen,Ina,India,Iris,Irma,Isabel,Jocelyn,Josephine,Joy,Joyce,Judith,Julia,Julie,June,Justine,Karen,Kate,Katherine,Kathleen,Katie,Kayla,Keira,Kelly,Kendra,Kerry,Kimberly,Kira,Kylie,Lacey,Lana,Lara,Laura,Lauren,Layla,Leah,Leanne,Leila,Lena,Leona,Leslie,Lewis,Lexi,Libby,Lila,Lilian,Lilly,Lily,Linda,Lindsay,Lisa,Liv,Livia,Lola,London,Lorraine,Lottie,Lotus,Louisa,Louise,Lucia,Lucy,Lulu,Luna,Lydia,Lyra,Mabel,Macey,Mackenzie,Macy,Madeline,Madelyn,Madison,Mae,Maeve,Maggie,Maya,Megan,Melanie,Melissa,Nadia,Nadine,Nancy,Naomi,Natalia,Natalie,Natasha,Nellie,Nia,Nicola,Nicole,Nikki,Nina,Noelle,Nora,Olive,Olivia,Ophelia,Paige,Paisley,Pamela,Patricia,Paula,Paulina,Pauline,Pearl,Peggy,Penelope,Penny,Peyton,Phoebe,Piper,Poppy,Priscilla,Rachel,Ramona,Rebecca,Reese,Regina,Riley,Rita,Robin,Rosa,Rose,Rosie,Ruby,Ruth,Sabrina,Sadie,Sally,Samantha,Sarah,Savannah,Scarlett,Selena,Serena,Shannon,Sharon,Sheila,Shirley,Sienna,Sierra,Simone,Skylar,Sofia,Sophia,Sophie,Stacy,Stephanie,Summer,Susan,Suzanne,Sydney,Sylvia,Tabitha,Tamara,Tara,Taylor,Teresa,Tessa,Thea,Tiffany,Tina,Tracy,Trinity,Valerie,Vanessa,Vera,Veronica,Victoria,Viola,Violet,Virginia,Vivian,Wendy,Whitney,Willow,Yvonne,Zara,Zoe" />
+    </texts>
+</l10n>

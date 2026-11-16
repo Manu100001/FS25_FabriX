@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- FabriX in-game help / documentation pages (pause menu > Help). -->
+<helpLines>
+    <category title="$l10n_fabrix_help_category">
+        <page title="$l10n_fabrix_help_overview_title" iconSliceId="helpline.icon_shop">
+            <paragraph>
+                <title text="$l10n_fabrix_help_overview_intro_title" />
+                <text text="$l10n_fabrix_help_overview_intro_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_overview_before_tasks_title" />
+                <text text="$l10n_fabrix_help_overview_before_tasks_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_overview_features_title" />
+                <text text="$l10n_fabrix_help_overview_features_text" />
+            </paragraph>
+        </page>
+        <page title="$l10n_fabrix_help_gui_title" iconSliceId="helpline.farmingBasics_map">
+            <paragraph>
+                <title text="$l10n_fabrix_help_gui_open_title" />
+                <text text="$l10n_fabrix_help_gui_open_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_gui_overview_title" />
+                <text text="$l10n_fabrix_help_gui_overview_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_gui_shiftplan_title" />
+                <text text="$l10n_fabrix_help_gui_shiftplan_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_gui_employees_title" />
+                <text text="$l10n_fabrix_help_gui_employees_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_gui_market_title" />
+                <text text="$l10n_fabrix_help_gui_market_text" />
+            </paragraph>
+        </page>
+        <page title="$l10n_fabrix_help_employees_title" iconSliceId="helpline.firstSteps_contracts">
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_shifts_title" />
+                <text text="$l10n_fabrix_help_employees_shifts_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_categories_title" />
+                <text text="$l10n_fabrix_help_employees_categories_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_seasonal_title" />
+                <text text="$l10n_fabrix_help_employees_seasonal_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_career_title" />
+                <text text="$l10n_fabrix_help_employees_career_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_salary_title" />
+                <text text="$l10n_fabrix_help_employees_salary_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_tip_title" />
+                <text text="$l10n_fabrix_help_employees_tip_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_leaders_title" />
+                <text text="$l10n_fabrix_help_employees_leaders_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_absence_title" />
+                <text text="$l10n_fabrix_help_employees_absence_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_dismissal_title" />
+                <text text="$l10n_fabrix_help_employees_dismissal_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_employees_apprentice_title" />
+                <text text="$l10n_fabrix_help_employees_apprentice_text" />
+            </paragraph>
+        </page>
+        <page title="$l10n_fabrix_help_factories_title" iconSliceId="helpline.basicEconomy_productionChains">
+            <paragraph>
+                <title text="$l10n_fabrix_help_factories_xp_title" />
+                <text text="$l10n_fabrix_help_factories_xp_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_factories_benefits_title" />
+                <text text="$l10n_fabrix_help_factories_benefits_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_factories_levels_title" />
+                <text text="$l10n_fabrix_help_factories_levels_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_factories_important_title" />
+                <text text="$l10n_fabrix_help_factories_important_text" />
+            </paragraph>
+        </page>
+        <page title="$l10n_fabrix_help_auto_title" iconSliceId="helpline.forestry_treeTypes">
+            <paragraph>
+                <text text="$l10n_fabrix_help_auto_function_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_auto_leaders_title" />
+                <text text="$l10n_fabrix_help_auto_leaders_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_auto_notes_title" />
+                <text text="$l10n_fabrix_help_auto_notes_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_auto_costs_title" />
+                <text text="$l10n_fabrix_help_auto_costs_text" />
+            </paragraph>
+        </page>
+        <page title="$l10n_fabrix_help_revamp_title" iconSliceId="helpline.misc_transport">
+            <paragraph>
+                <title text="$l10n_fabrix_help_revamp_compatibility_title" />
+                <text text="$l10n_fabrix_help_revamp_compatibility_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_revamp_limitations_title" />
+                <text text="$l10n_fabrix_help_revamp_limitations_text" />
+            </paragraph>
+        </page>
+        <page title="$l10n_fabrix_help_other_title" iconSliceId="helpline.animals_dog">
+            <paragraph>
+                <title text="$l10n_fabrix_help_other_costs_title" />
+                <text text="$l10n_fabrix_help_other_costs_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_other_production_title" />
+                <text text="$l10n_fabrix_help_other_production_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_other_limits_title" />
+                <text text="$l10n_fabrix_help_other_limits_text" />
+            </paragraph>
+            <paragraph>
+                <title text="$l10n_fabrix_help_other_feedback_title" />
+                <text text="$l10n_fabrix_help_other_feedback_text" />
+            </paragraph>
+        </page>
+    </category>
+</helpLines>

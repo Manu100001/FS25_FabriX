@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="116">
+    <author>Manuel Milde</author>
+    <version>1.0.0.0</version>
+    <multiplayer supported="true" />
+
+    <iconFilename>icon_FabriX.dds</iconFilename>
+    <title>
+        <en>FabriX</en>
+    </title>
+    <description>
+        <de>
+            <![CDATA[Gameplay-Overhaul für die Produktionen im LS25: Übernimm die Schichtplanung, stelle Fachkräfte ein und erweitere deine Standorte!
+
+FabriX wird „Fäbriks“ ausgesprochen, ähnlich dem englischen Wort „fabrics“.
+
+Key-Features:
+• Personal & Karriere: Rekrutiere Erntehelfer und Facharbeiter oder bilde eigene Azubis aus. Mit gesammelter Erfahrung (XP) steigen Produktivität und Gehaltsansprüche vom Lehrling bis zum Betriebsleiter.
+• 24/7-Schichtsystem: Besetze drei Tagesschichten gezielt nach Qualifikation und halte deine Fabriken ausgelastet.
+• Führungsrollen: Ab Stufe 3 braucht jede Fabrik einen Meister, ab Stufe 5 zusätzlich einen Betriebsleiter. Ohne sie kann nicht produziert werden und die Fabrik steht still.
+• Echte Betriebskosten: Keine Pauschalen mehr! Bezahle reellen Strom- und Wasserverbrauch nach Rezeptaufwand und die monatlichen Gehälter für deine Mitarbeiter.
+• Standorterweiterung: Rüste deine Werke aus, um Lagerkapazitäten und zusätzliche Arbeitsplätze freizuschalten.
+• Auto-Modus: Aktiviere ab Stufe 2 den Auto-Modus für intelligentes, automatisiertes Schichtmanagement.
+
+Tastenkürzel:
+- Taste K: FabriX-Menü öffnen/schließen (in den Steuerungsoptionen anpassbar)
+
+Detaillierte Anleitungen findest du im Pause-Menü unter „Hilfe“ sowie im GitHub-Repository.
+
+Über Feedback, Anregungen und Bug-Reports freue ich mich: https://github.com/Manu100001/FS25_FabriX]]>
+        </de>
+        <en>
+            <![CDATA[Gameplay overhaul for Farming Simulator 25 productions: take charge of shift planning, hire skilled workers, and expand your sites!
+
+FabriX is pronounced like the English word “fabrics” (/ˈfæbrɪks/).
+
+Key Features:
+• Workforce & Career: Hire seasonal workers, skilled staff, or train your own apprentices. Gaining experience (XP) increases efficiency and salary demands from apprentice to director.
+• 24/7 Shift System: Assign workers to three daily shifts according to their qualifications and keep your factories running at full capacity.
+• Leadership Roles: From level 3 onward, every factory requires a master; from level 5 onward, it also requires a director. Without them, the factory cannot produce and stands still.
+• Real Operating Expenses: No more flat fees! Pay for actual electricity and water consumption based on production recipes, as well as your employees' monthly wages.
+• Site Expansions: Upgrade your factories to unlock more storage capacity and additional jobs.
+• Auto Mode: Activate Auto Mode from level 2 onward for smart, automated shift management.
+
+Controls:
+- Key [K]: Open/close the FabriX management menu (rebindable in control options)
+
+Detailed guides are available in the in-game Help menu and in the GitHub repository.
+
+I look forward to your feedback, suggestions, and bug reports: https://github.com/Manu100001/FS25_FabriX]]>
+        </en>
+    </description>
+    <l10n filenamePrefix="l10n/l10n" />
+    <extraSourceFiles>
+        <sourceFile filename="registerFabriX.lua" />
+    </extraSourceFiles>
+    <actions>
+        <action name="FABRIX_OPEN_GUI" />
+    </actions>
+    <inputBinding>
+        <actionBinding action="FABRIX_OPEN_GUI">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_k" />
+        </actionBinding>
+    </inputBinding>
+</modDesc>

@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf-8'?>
+<l10n>
+	<translationContributors>Manu100001</translationContributors>
+	<texts>
+		<!-- Money Types and Finance Menu Labels -->
+		<text name="finance_fabrixTax" text="Grundsteuer" />
+		<text name="finance_fabrixWater" text="Wasserkosten" />
+		<text name="finance_fabrixElectricity" text="Stromkosten" />
+		<text name="finance_fabrixTransportation" text="Transportkosten" />
+		<text name="finance_fabrixSalary" text="Löhne &amp; Gehälter" />
+		<text name="finance_fabrixSeverance" text="Abfindungen" />
+		<text name="finance_fabrixHiring" text="Personalbeschaffung" />
+		<text name="finance_fabrixSchool" text="Fortbildung" />
+		<text name="finance_fabrixPenalty" text="Strafzahlungen" />
+
+		<!-- Input Actions -->
+		<text name="fabrix_action_open_gui" text="FabriX öffnen" />
+		<text name="input_FABRIX_OPEN_GUI" text="FabriX öffnen" />
+
+		<!-- Factory: Level & Upgrade -->
+		<text name="fabrix_production_level" text="Level %d %d/%d XP" />
+		<text name="fabrix_production_level_max" text="Level %d (MAX) %d XP" />
+		<text name="fabrix_upgrade_factory_button_text" text="Fabrik verbessern" />
+		<text name="fabrix_upgrade_factory_xp_missing" text="Die Fabrik hat noch zu wenig XP: %d/%d" />
+		<text name="fabrix_upgrade_factory_money_missing" text="Nicht genügend Geld!&#10;&#10;Kosten: %s, Guthaben: %s" />
+		<text name="fabrix_upgrade_factory" text="Möchtest du '%s' auf Level %d verbessern?&#10;&#10;Kosten: %s, Dauer: %s Monat(e)" />
+		<text name="fabrix_upgrade_factory_confirmed" text="Verbesserung der Fabrik gestartet. Während des Umbaus kann nicht produziert werden." />
+		<text name="fabrix_upgrade_factory_onRenovation1" text="Fabrik befindet sich im Umbau!" />
+		<text name="fabrix_upgrade_factory_onRenovation2" text="Gesperrt für %d Stunde(n)" />
+		<text name="fabrix_upgrade_factory_requires_meister" text="Achtung: Level 3 Fabriken benötigen zwingend einen Meister (Level 7-9) in der Fabrikleitung, um produzieren zu können!" />
+		<text name="fabrix_upgrade_factory_requires_betriebsleiter" text="Achtung: Level 5 Fabriken benötigen zwingend einen Betriebsleiter (Level 10) in der Fabrikleitung, um produzieren zu können!" />
+
+		<!-- Factory: Notifications -->
+		<text name="fabrix_renovation_finished" text="FabriX: '%s' ist fertig mit dem Umbau! Neues Level: %d" />
+		<text name="fabrix_renovation_finished_info" text="FabriX: Produktion von '%s' muss aktiv wieder gestartet werden" />
+		<text name="fabrix_upgrade_possible" text="FabriX: '%s' hat %d XP erreicht. Upgrade auf neues Level möglich" />
+
+		<!-- Logging -->
+		<text name="fabrix_savegame_directory_missing" text="[FabriX]: Savegame-Verzeichnis konnte nicht gefunden werden - wahrscheinlich wurde das Savegame noch nicht gespeichert und gerade erst neu erstellt." />
+		<text name="fabrix_xml_empty" text="[FabriX]: Geladene FabriX.xml ist leer!" />
+		<text name="fabrix_error_savegame_dir" text="[FabriX]: Savegame Verzeichnis ist nicht vorhanden, FabriX.xml kann nicht gespeichert werden" />
+		<text name="fabrix_xml_creation_failed_when_saving" text="[FabriX]: XML - Datei konnte nicht erstellt werden" />
+
+		<!-- Worker: Notifications -->
+		<text name="fabrix_worker_retired" text="%s hat das Rentenalter erreicht und hat nun den Betrieb verlassen" />
+		<text name="fabrix_worker_dismissed" text="%s wurde gekündigt und hat nun den Betrieb verlassen" />
+		<text name="fabrix_worker_left" text="%s hat den Betrieb verlassen" />
+		<text name="fabrix_worker_self_resigned" text="%s hat gekündigt (%s). Mit einem Gegenangebot kannst du ihn vielleicht halten." />
+		<text name="fabrix_worker_recovered" text="%s ist wieder gesund und kann eingeteilt werden" />
+		<text name="fabrix_worker_training_finished" text="%s hat die Fortbildung abgeschlossen: jetzt %s (Level %d)!" />
+		<text name="fabrix_worker_training_ready" text="%s ist bereit für die nächste Fortbildung" />
+		<text name="fabrix_worker_training_enrolled" text="%s wurde zur Fortbildung angemeldet (%d Monate)" />
+		<text name="fabrix_worker_level_up" text="%s %s ist auf Level %d aufgestiegen!" />
+		<text name="fabrix_worker_title" text="%s %s" />
+		<text name="fabrix_worker_azubi_penalty" text="%s ist seit 4 Jahren Azubi und noch nicht ausgelernt - Strafzahlung fällig" />
+		<text name="fabrix_worker_azubi_left" text="%s hat die Ausbildung nicht abgeschlossen und sucht sich einen neuen Betrieb - Abfindung fällig" />
+		<text name="fabrix_worker_counter_offer_accepted" text="%s nimmt dein Gegenangebot an und bleibt im Betrieb" />
+		<text name="fabrix_worker_counter_offer_rejected" text="%s lehnt dein Gegenangebot ab und verlässt den Betrieb wie geplant" />
+
+		<!-- Worker: Sick Reasons -->
+		<text name="fabrix_worker_sick_cow" text="%s wurde von einer Kuh getreten und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_flu" text="%s hat eine Grippe und sich für %d Tag(e) krankgemeldet" />
+		<text name="fabrix_worker_sick_cold" text="%s hat eine Erkältung und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_back" text="%s hat einen Hexenschuss und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_stomach" text="%s hat Magen-Darm und bleibt %d Tag(e) in der Nähe der Toilette" />
+		<text name="fabrix_worker_sick_toe" text="%s hat sich den Zeh verstaucht und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_wasp" text="%s wurde von einer Wespe gestochen und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_wheelbarrow" text="%s ist mit der Schubkarre umgekippt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_tooth" text="%s hat Zahnschmerzen und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_hayfever" text="%s hat Heuschnupfen und niest sich %d Tag(e) durch die Gegend" />
+		<text name="fabrix_worker_sick_sunburn" text="%s hat sich beim Mittagsschlaf einen Sonnenbrand geholt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_cat" text="%s ist über die Hofkatze gestolpert und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_goat" text="%s wurde von einer Ziege über den Hof gejagt und hat sich den Knöchel verstaucht – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_bees" text="%s wollte dem Imker helfen und wurde mehrfach gestochen – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_ladder" text="%s ist beim Äpfelpflücken von der Leiter gefallen und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_rake" text="%s ist auf eine Harke getreten und hat den Stiel ins Gesicht bekommen – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_manure" text="%s ist in die Güllegrube gerutscht und muss sich erst mal %d Tag(e) gründlich waschen" />
+		<text name="fabrix_worker_sick_rooster" text="%s wurde vom Hofhahn attackiert und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_cowslip" text="%s ist im Kuhstall ausgerutscht und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_horn" text="%s wurde von einer Kuh mit dem Horn erwischt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_horse" text="%s wurde vom Pferd getreten und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_dog" text="%s wurde vom Nachbarshund gebissen und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_pumpkin" text="%s hat sich einen Kürbis auf den Fuß fallen lassen und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_nettles" text="%s ist in die Brennnesseln gefallen und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_migraine" text="%s hat Migräne und sich für %d Tag(e) krankgemeldet" />
+		<text name="fabrix_worker_sick_coldroom" text="%s hat sich versehentlich im Kühlraum eingeschlossen und ist jetzt %d Tag(e) erkältet" />
+		<text name="fabrix_worker_sick_stool" text="%s ist beim Melken vom Schemel gekippt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_fence" text="%s hat einen Stromschlag vom Weidezaun bekommen und hat jetzt Herzrhythmusstörungen – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_molehill" text="%s ist in einen Maulwurfshügel getreten und hat sich den Fuß verknackst – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_neck" text="%s hat sich beim Rückwärtsrangieren mit dem Hänger einen steifen Nacken geholt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_deaf" text="%s ist vom Mähdrescher-Lärm vorübergehend taub und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_sheep" text="%s wurde beim Schafe scheren vom Schaf umgerannt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_chainsaw" text="%s hat sich mit der Motorsäge verletzt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_feedsack" text="%s hat sich beim Schleppen eines Futtersacks einen Muskel gezerrt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_headache" text="%s hat starke Kopfschmerzen und sich für %d Tag(e) krankgemeldet" />
+		<text name="fabrix_worker_sick_backache" text="%s hat Rückenschmerzen und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_hammer" text="%s hat sich beim Zaunbau mit dem Hammer auf den Daumen gehauen – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_hose" text="%s ist über den Gartenschlauch gestolpert und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_splinter" text="%s hat sich beim Holzhacken einen Splitter eingezogen, der sich entzündet hat – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_dust" text="%s hat vom Dreschstaub eine Bindehautentzündung und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_tractorstep" text="%s hat beim Absteigen vom Traktor die letzte Stufe verpasst und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_heat" text="%s hat bei der Hitze auf dem Feld schlappgemacht und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_barbedwire" text="%s ist am Stacheldraht hängengeblieben und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_trampoline" text="%s hat das Trampolin der Kinder unterschätzt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_pitchfork" text="%s hat sich vom Heugabel-Schwingen einen Tennisarm geholt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_pneumonia" text="%s hat eine Lungenentzündung und sich für %d Tag(e) krankgemeldet" />
+		<text name="fabrix_worker_sick_bull" text="%s hat ein Selfie mit dem Bullen versucht und wurde über den Zaun befördert – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_bale" text="%s wurde von einem umkippenden Rundballen plattgedrückt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_tractordoor" text="%s hat sich die Traktortür auf den Kopf geknallt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_alpaca" text="%s wurde vom Alpaka angespuckt und hat eine Bindehautentzündung – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_yawn" text="%s hat sich beim Gähnen den Kiefer ausgerenkt und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_cowtail" text="%s hat beim Melken eine Ohrfeige vom Kuhschwanz kassiert und fällt %d Tag(e) aus" />
+		<text name="fabrix_worker_sick_fleas" text="%s hat Flöhe vom Hofhund und muss %d Tag(e) zur Entlausung" />
+		<text name="fabrix_worker_sick_haircut" text="%s hat sich mit der Heckenschere die Frisur ruiniert und traut sich %d Tag(e) nicht aus dem Haus" />
+		<text name="fabrix_worker_sick_udder" text="%s hat Milch direkt vom Euter probiert und hat jetzt Magenprobleme – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_silo" text="%s ist für besseren Handyempfang aufs Silo geklettert und runtergefallen – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_mower" text="%s ist mit dem Aufsitzmäher in den Gartenteich gefahren und hat sich erkältet – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_chicken" text="%s hat beim Hühnerfangen einen Hechtsprung in den Stall gemacht und sich die Schulter geprellt – %d Tag(e) Ausfall" />
+		<text name="fabrix_worker_sick_silage" text="%s hat vom Silagegeruch einen Kreislaufkollaps bekommen und fällt %d Tag(e) aus" />
+
+		<!-- Worker: Validation Errors -->
+		<text name="fabrix_worker_invalid_data" text="Ungültige Daten" />
+		<text name="fabrix_worker_in_training" text="Dieser Mitarbeiter ist aktuell auf Fortbildung" />
+		<text name="fabrix_worker_sick_blocked" text="Dieser Mitarbeiter ist krank" />
+		<text name="fabrix_worker_already_worked" text="Dieser Mitarbeiter hat heute bereits gearbeitet" />
+		<text name="fabrix_worker_azubi_level3" text="Azubis können erst ab Fabrik Level 3 eingesetzt werden." />
+		<text name="fabrix_worker_azubi_dayshift" text="Azubis dürfen nur in der Tagesschicht (08:00 - 16:00) arbeiten." />
+		<text name="fabrix_worker_only_facharbeiter" text="Nur Facharbeiter können diese Position besetzen" />
+		<text name="fabrix_worker_only_meister" text="Nur ein Meister (Level 7-9) kann den Meister-Slot besetzen" />
+		<text name="fabrix_worker_only_betriebsleiter" text="Nur ein Betriebsleiter (Level 10) kann diesen Slot besetzen" />
+		<text name="fabrix_worker_unknown_slot" text="Unbekannter Slot" />
+		<text name="fabrix_gui_no_permission" text="Dir fehlt die Berechtigung, Produktionen zu verwalten." />
+
+		<!-- Worker: Time Formats -->
+		<text name="fabrix_worker_notice_none" text="Nicht kündbar" />
+		<text name="fabrix_worker_notice_month_end" text="Zum Monatsende" />
+		<text name="fabrix_worker_notice_months" text="%d Monate Kündigungsfrist" />
+		<text name="fabrix_worker_months" text="%d Monate" />
+		<text name="fabrix_worker_years" text="%d Jahre" />
+
+		<!-- Categories & Roles -->
+		<text name="fabrix_category_azubi" text="Azubi" />
+		<text name="fabrix_category_erntehelfer" text="Erntehelfer" />
+		<text name="fabrix_category_facharbeiter" text="Facharbeiter" />
+		<text name="fabrix_category_azubis" text="Azubis" />
+		<text name="fabrix_role_meister" text="Meister" />
+		<text name="fabrix_role_geselle" text="Geselle" />
+		<text name="fabrix_role_betriebsleiter" text="Betriebsleiter" />
+		<text name="fabrix_role_meister_range" text="Meister (Level 7-9)" />
+		<text name="fabrix_role_betriebsleiter_range" text="Betriebsleiter (Level 10)" />
+
+		<!-- GUI: Common -->
+		<text name="fabrix_gui_level" text="Level %d" />
+		<text name="fabrix_gui_worker_market_info" text="Level %d · %d Jahre · %s/Monat" />
+
+		<!-- GUI: Market -->
+		<text name="fabrix_gui_hire_confirm" text="Möchtest du %s (Level %d, %d Jahre) für %s/Monat einstellen?&#10;Einstellungsgebühr: %s" />
+		<text name="fabrix_gui_hire_title" text="Mitarbeiter einstellen" />
+		<text name="fabrix_gui_hire_no_money" text="Nicht genügend Geld für die Einstellung (%s benötigt)." />
+
+		<!-- GUI: Shift Plan -->
+		<text name="fabrix_gui_slot_free" text="+ frei" />
+		<text name="fabrix_gui_remove_shift_confirm" text="Möchtest du %s aus dieser Schicht entfernen?" />
+		<text name="fabrix_gui_remove_shift_warning" text="Achtung: Dieser Helfer hat seine Schicht bereits begonnen und kann daher heute nicht mehr woanders eingesetzt werden." />
+		<text name="fabrix_gui_remove_shift_title" text="Helfer entfernen" />
+		<text name="fabrix_gui_clear_shifts_title" text="Schichten leeren" />
+		<text name="fabrix_gui_no_workers_available" text="Keine passenden Helfer verfügbar." />
+		<text name="fabrix_gui_choose_category_text" text="Welche Kategorie?" />
+		<text name="fabrix_gui_choose_category_title" text="Kategorie wählen" />
+		<text name="fabrix_gui_worker_option" text="%s · Lvl %d · %d J. · %s" />
+		<text name="fabrix_gui_no_workers_category" text="Keine passenden Helfer in dieser Kategorie." />
+		<text name="fabrix_gui_choose_worker_text" text="Wähle einen Helfer:" />
+		<text name="fabrix_gui_choose_worker_title" text="Helfer auswählen" />
+		<text name="fabrix_gui_slot_required" text="+ erforderlich" />
+		<text name="fabrix_gui_remove_role_confirm" text="Möchtest du %s aus der Position '%s' entfernen?&#10;&#10;Achtung: Ohne %s produziert die Fabrik nicht mehr." />
+		<text name="fabrix_gui_remove_role_title" text="Position räumen" />
+		<text name="fabrix_gui_role_worker_option" text="%s · %s · Lvl %d · %d J." />
+		<text name="fabrix_gui_no_free_role" text="Kein freier %s verfügbar." />
+		<text name="fabrix_gui_choose_leader_text" text="Wähle eine Führungskraft:" />
+		<text name="fabrix_gui_choose_leader_title" text="Position besetzen" />
+		<text name="fabrix_gui_assign_failed" text="Zuweisung nicht möglich" />
+
+		<!-- GUI: Employee Detail -->
+		<text name="fabrix_gui_detail_unassigned" text="Nicht zugewiesen" />
+		<text name="fabrix_gui_shift_early" text="Frühschicht" />
+		<text name="fabrix_gui_shift_day" text="Tagschicht" />
+		<text name="fabrix_gui_shift_late" text="Spätschicht" />
+		<text name="fabrix_gui_shift_generic" text="Schicht %d" />
+		<text name="fabrix_gui_detail_in_training_months" text="Noch %d Monat(e) auf Fortbildung" />
+		<text name="fabrix_gui_detail_in_training" text="Auf Fortbildung" />
+		<text name="fabrix_gui_salary_per_month" text="%s/Monat" />
+		<text name="fabrix_gui_detail_dismissed_months" text="Gekündigt – noch %d Monat(e)" />
+		<text name="fabrix_gui_detail_self_resigned_months" text="Hat gekündigt – noch %d Monat(e)" />
+		<text name="fabrix_gui_xp" text="%d XP" />
+		<text name="fabrix_gui_xp_progress" text="%d / %d XP" />
+
+		<!-- GUI: Employee Actions (Dismissal, Counter-Offer, Training) -->
+		<text name="fabrix_gui_btn_withdraw_notice" text="KÜNDIGUNG ZURÜCKNEHMEN" />
+		<text name="fabrix_gui_btn_counter_offer" text="GEGENANGEBOT" />
+		<text name="fabrix_gui_btn_dismiss" text="KÜNDIGEN" />
+		<text name="fabrix_gui_btn_train" text="WEITERBILDEN (%d Mon.)" />
+		<text name="fabrix_gui_btn_clear_shifts" text="ALLE ENTFERNEN" />
+		<text name="fabrix_gui_btn_visit" text="BESUCHEN" />
+		<text name="fabrix_gui_clear_shifts_confirm" text="Möchtest du alle Helfer aus %s entfernen?" />
+		<text name="fabrix_gui_clear_shifts_warning" text="Achtung: Arbeiter, die ihre Schicht bereits begonnen haben, können heute nicht mehr woanders eingesetzt werden." />
+		<text name="fabrix_gui_azubi_no_dismiss" text="Azubis können nicht gekündigt werden. Die Ausbildung muss abgeschlossen werden." />
+		<text name="fabrix_gui_withdraw_confirm" text="Kündigung von %s zurücknehmen?&#10;&#10;Kosten: %s" />
+		<text name="fabrix_gui_withdraw_title" text="Kündigung zurücknehmen" />
+		<text name="fabrix_gui_counter_offer_title" text="Gegenangebot" />
+		<text name="fabrix_gui_counter_offer_text" text="%s hat gekündigt. Welche Gehaltserhöhung bietest du an? Ob das Angebot angenommen wird, ist offen, und du hast nur einen Versuch." />
+		<text name="fabrix_gui_counter_offer_option" text="+%d %%: %s pro Monat" />
+		<text name="fabrix_gui_dismiss_confirm" text="Möchtest du %s kündigen?&#10;&#10;%s&#10;Abfindung beträgt: %s" />
+		<text name="fabrix_gui_dismiss_title" text="Mitarbeiter kündigen" />
+		<text name="fabrix_gui_withdraw_no_money" text="Nicht genügend Geld für die Rücknahme (%s benötigt)." />
+		<text name="fabrix_gui_withdraw_done" text="Kündigung von %s zurückgenommen." />
+		<text name="fabrix_gui_train_confirm" text="%s zur Fortbildung anmelden?&#10;&#10;Dauer: %d Monate&#10;Danach: %s&#10;Kosten: %s&#10;&#10;Während der Fortbildung kann der Mitarbeiter nicht eingesetzt werden." />
+		<text name="fabrix_gui_train_title" text="Fortbildung starten" />
+		<text name="fabrix_gui_train_no_money" text="Nicht genügend Geld für die Fortbildung (%s benötigt)." />
+
+		<!-- GUI: Overview Alerts -->
+		<text name="fabrix_gui_alert_no_leader" text="%s: kein %s – Fabrik produziert nicht!" />
+		<text name="fabrix_gui_alert_free_slots" text="%s: %d von %d Slots frei" />
+		<text name="fabrix_gui_alert_leaving" text="%s verlässt den Betrieb in %d Monat(en)" />
+		<text name="fabrix_gui_alert_retiring" text="%s geht in Rente" />
+		<text name="fabrix_gui_alert_retiring_months" text="%s geht in %d Monat(en) in Rente" />
+		<text name="fabrix_gui_alert_pending_school" text="%d Facharbeiter warten auf Fortbildung" />
+		<text name="fabrix_gui_alert_status_noStaff" text="%s: produziert nicht - kein Personal in der aktuellen Schicht" />
+		<text name="fabrix_gui_alert_status_noRecipe" text="%s: keine aktiven Rezepte" />
+		<text name="fabrix_gui_alert_status_missing" text="%s: Rohstoffe fehlen (%s)" />
+		<text name="fabrix_gui_alert_status_full" text="%s: Lager voll" />
+		<text name="fabrix_gui_alert_status_low" text="%s: Rohstoffe werden bald knapp (%s)" />
+		<text name="fabrix_gui_alert_unassigned_azubi" text="Azubi %s ist keiner Schicht zugewiesen" />
+		<text name="fabrix_gui_alert_sick" text="%s ist krank – noch %d Tag(e)" />
+
+		<!-- GUI: Static Labels (FabriXGui.xml) -->
+		<text name="fabrix_gui_no_productions" text="Du hast noch keine&#10;Produktionsstätten." />
+		<text name="fabrix_gui_detail_sick_days" text="Krank – noch %d Tag(e)" />
+		<text name="fabrix_gui_tab_overview" text="ÜBERBLICK" />
+		<text name="fabrix_gui_tab_shiftplan" text="EINSATZPLAN" />
+		<text name="fabrix_gui_tab_employees" text="MITARBEITER" />
+		<text name="fabrix_gui_tab_market" text="ARBEITSMARKT" />
+		<text name="fabrix_gui_ov_workforce" text="BELEGSCHAFT" />
+		<text name="fabrix_gui_ov_workers_total" text="Mitarbeiter gesamt" />
+		<text name="fabrix_gui_ov_cat_erntehelfer" text="- Erntehelfer" />
+		<text name="fabrix_gui_ov_cat_geselle" text="- Geselle" />
+		<text name="fabrix_gui_ov_cat_meister" text="- Meister" />
+		<text name="fabrix_gui_ov_cat_betriebsleiter" text="- Betriebsleiter" />
+		<text name="fabrix_gui_ov_cat_azubis" text="- Azubis" />
+		<text name="fabrix_gui_ov_assigned" text="Im Einsatz / verfügbar" />
+		<text name="fabrix_gui_ov_in_school" text="Auf Fortbildung" />
+		<text name="fabrix_gui_ov_trainable" text="Fortbildung möglich" />
+		<text name="fabrix_gui_ov_sick" text="Krankgemeldet" />
+		<text name="fabrix_gui_ov_resigning" text="Gekündigt" />
+		<text name="fabrix_gui_pool_section_resigning" text="KÜNDIGUNG" />
+		<text name="fabrix_gui_ov_finances" text="FINANZEN" />
+		<text name="fabrix_gui_ov_salary" text="Lohnkosten / Monat" />
+		<text name="fabrix_gui_ov_property_tax" text="Grundsteuer / Jahr" />
+		<text name="fabrix_gui_ov_cost_total" text="Gesamtkosten / Monat" />
+		<text name="fabrix_gui_ov_productions" text="PRODUKTIONEN" />
+		<text name="fabrix_gui_ov_factories_total" text="Fabriken gesamt" />
+		<text name="fabrix_gui_ov_slots_used" text="Belegte Arbeiterslots" />
+		<text name="fabrix_gui_ov_avg_productivity" text="Durchschnittliche Produktivität" />
+		<text name="fabrix_gui_ov_idle_factories" text="Stillstehende Fabriken" />
+		<text name="fabrix_gui_ov_action_needed" text="HANDLUNGSBEDARF" />
+		<text name="fabrix_gui_market_empty" text="Keine Helfer verfügbar" />
+		<text name="fabrix_gui_pool_empty" text="Keine Helfer in dieser Kategorie" />
+		<text name="fabrix_gui_pool_empty_filter" text="Keine Helfer für diesen Filter" />
+		<text name="fabrix_gui_market_empty_erntehelfer" text="Aktuell keine Erntehelfer verfügbar.&#10;Schau doch im nächsten Monat wieder vorbei!" />
+		<text name="fabrix_gui_market_empty_facharbeiter" text="Aktuell keine Facharbeiter verfügbar.&#10;Schau doch im nächsten Monat wieder vorbei!" />
+		<text name="fabrix_gui_market_empty_azubis" text="Aktuell keine Azubis verfügbar.&#10;Von Juli bis September ist der offizielle Ausbildungsstart.&#10;Beachte, dass du dafür eine Fabrik mit mind. Level 3 benötigst." />
+		<text name="fabrix_gui_filter_all" text="Alle" />
+		<text name="fabrix_gui_filter_geselle" text="Gesellen" />
+		<text name="fabrix_gui_filter_meister" text="Meister" />
+		<text name="fabrix_gui_filter_betriebsleiter" text="Betriebsleiter" />
+		<text name="fabrix_gui_detail_age" text="Alter" />
+		<text name="fabrix_gui_detail_level" text="Level" />
+		<text name="fabrix_gui_detail_productivity" text="Produktivität" />
+		<text name="fabrix_gui_detail_xp" text="Erfahrung" />
+		<text name="fabrix_gui_detail_hired" text="Im Betrieb seit" />
+		<text name="fabrix_gui_detail_assigned" text="Eingesetzt" />
+		<text name="fabrix_gui_detail_salary" text="Gehalt" />
+		<text name="fabrix_gui_detail_status" text="Status" />
+		<text name="fabrix_gui_lead_title" text="Fabrikleitung" />
+		<text name="fabrix_gui_auto_mode" text="AUTO-Modus" />
+		<text name="fabrix_gui_ov_notifications" text="BENACHRICHTIGUNGEN" />
+		<text name="fabrix_gui_notify_progress" text="Aufstieg &amp; Fortbildung" />
+		<text name="fabrix_gui_notify_sickness" text="Krankheit" />
+		<text name="fabrix_gui_notify_staff" text="Personal" />
+		<text name="fabrix_status_renovation" text="In Renovierung" />
+		<text name="fabrix_status_noStaff" text="Kein Personal" />
+		<text name="fabrix_status_noRecipe" text="Keine aktiven Rezepte" />
+		<text name="fabrix_status_missing" text="Rohstoffe fehlen" />
+		<text name="fabrix_status_full" text="Lager voll" />
+		<text name="fabrix_status_low" text="Rohstoffe bald knapp" />
+		<text name="fabrix_status_running" text="Läuft" />
+		<text name="fabrix_info_auto_on" text="Auto-Modus an" />
+		<text name="fabrix_info_shift" text="%d / %d Plätze - %d %% Produktivität" />
+		<text name="fabrix_info_unassigned" text="- (unbesetzt)" />
+		<text name="fabrix_gui_lead_master" text="MEISTER" />
+		<text name="fabrix_gui_lead_bl" text="BETRIEBSLEITER" />
+		<text name="fabrix_gui_btn_hire" text="EINSTELLEN" />
+		<text name="fabrix_gui_btn_train_default" text="WEITERBILDEN" />
+		<text name="fabrix_gui_level_all" text="Level: Alle" />
+		<text name="fabrix_gui_pool_section_training" text="WEITERBILDUNG" />
+		<text name="fabrix_gui_pool_section_sick" text="KRANK" />
+
+		<!-- Help: General -->
+		<text name="fabrix_help_category" text="FabriX" />
+
+		<!-- Help: Overview -->
+		<text name="fabrix_help_overview_title" text="FabriX - neues Gameplay für deine Produktionen" />
+		<text name="fabrix_help_overview_intro_title" text="Was ist FabriX?" />
+		<text name="fabrix_help_overview_intro_text" text="Bisher liefen Fabriken auf Autopilot: Rohstoffe abladen, einschalten, Ertrag kassieren. FabriX macht daraus echte Betriebe, bei denen du als Betriebsleiter gefordert bist." />
+		<text name="fabrix_help_overview_before_tasks_title" text="Was ändert sich?" />
+		<text name="fabrix_help_overview_before_tasks_text" text="Schluss mit pauschalen Kosten: Deine Gebäude verbrauchen echten Strom und Wasser. Monatliche Löhne, transparente Transportkosten und die jährliche Grundsteuer landen exakt aufgeschlüsselt auf deiner Abrechnung.&#10;&#10;Vor allem zählt dein Personal: Ohne Mitarbeiter bewegt sich kein Rad. Besetze deine Schichten clever – je erfahrener das Team, desto höher die Ausbeute. Stelle Fachkräfte ein, bilde Azubis aus und level deine Leute über Erfahrungspunkte (XP) auf. Doch aufgepasst: Mehr Leistung bedeutet auch höhere Gehaltsforderungen. Reicht der Platz nicht mehr, baust du deine Fabriken einfach aus." />
+		<text name="fabrix_help_overview_features_title" text="Deine Aufgaben" />
+		<text name="fabrix_help_overview_features_text" text="Sorge für eine lückenlose Auslastung deiner Anlagen, denn Leerlauf verbrennt bares Geld. Koordiniere Schichten, steuere Fortbildungen und behalte deine laufenden Kosten fest im Griff." />
+
+		<!-- Help: GUI -->
+		<text name="fabrix_help_gui_title" text="FabriX - GUI" />
+		<text name="fabrix_help_gui_open_title" text="Menü öffnen" />
+		<text name="fabrix_help_gui_open_text" text="Mit der Taste [K] öffnest und schließt du deine Firmenzentrale (Tastenbelegung in den Steuerungsoptionen anpassbar). Das Menü gliedert sich in vier Bereiche: Überblick, Einsatzplan, Mitarbeiter und Arbeitsmarkt." />
+		<text name="fabrix_help_gui_overview_title" text="Überblick" />
+		<text name="fabrix_help_gui_overview_text" text="Deine Leitstelle für alle Kernzahlen: Belegschaftsstärke, aktive Betriebe, Schichtauslastung, Gesamteffizienz und laufende Fixkosten auf einen Blick.&#10;&#10;Zusätzlich schlägt das System bei Engpässen sofort Alarm: Unbesetzte Schichten, fehlende Meister oder Betriebsleiter, Krankschreibungen, anstehende Renteneintritte oder fortbildungsbereite Angestellte werden direkt gemeldet. Genauso siehst du sofort, welcher Betrieb stillsteht – sei es durch Personalmangel, inaktive Rezepte, knappe Rohstoffe (unter 20 %) oder überlaufende Lager.&#10;&#10;Unter „Benachrichtigungen“ schaltest du Meldungen zu Aufstieg &amp; Fortbildung, Krankheit und Personalwechsel für dich ab." />
+		<text name="fabrix_help_gui_shiftplan_title" text="Einsatzplan" />
+		<text name="fabrix_help_gui_shiftplan_text" text="Hier koordinierst du das Drei-Schicht-System deiner Fabriken. Besetze Arbeitsplätze flexibel mit Personal, teile Führungskräfte für den Betrieb ein und behalte die Produktivität jeder einzelnen Schicht in Echtzeit im Blick. Oben rechts siehst du die Erfahrung der Fabrik und startest den Ausbau." />
+		<text name="fabrix_help_gui_employees_title" text="Mitarbeiter" />
+		<text name="fabrix_help_gui_employees_text" text="Das Personalbüro: Prüfe Level, Erfahrung, Lohnkosten, Alter und Einsatzort deines Teams. Schicke Fachkräfte auf Fortbildung, verwalte Kündigungen oder verhandle Gehälter neu, falls Personal abwandern will (Erfolgschancen variieren). Im Reiter „Krank“ siehst du alle aktuellen Personalausfälle." />
+		<text name="fabrix_help_gui_market_title" text="Arbeitsmarkt" />
+		<text name="fabrix_help_gui_market_text" text="Rekrutiere neue Kräfte aus drei Bewerbergruppen: Erntehelfer (Startlevel 1–3), Azubis und Facharbeiter (in der Regel Gesellen). Jede Vermittlung kostet 250 € Einstellungsgebühr.&#10;&#10;Vorsicht bei voreiligen Entlassungen: Schnelles „Heuern und Feuern“ wird teuer, da bei Kündigungen Abfindungen fällig werden. Oft rechnet es sich betriebswirtschaftlich eher, Personal auch in schwachen Monaten auf der Gehaltsliste zu halten.&#10;&#10;Der Bewerberpool füllt sich monatlich und wird zu jedem Saisonwechsel (März, Juni, September, Dezember) komplett erneuert. Mehr Fabriken locken dabei mehr Bewerber an.&#10;&#10;Besonderheit bei Azubis: Ausbildungsstart ist ausschließlich von Juli bis September. Voraussetzung ist mindestens ein Werk auf Stufe 3, da Azubis für die Betreuung zwingend einen Meister vor Ort brauchen.&#10;&#10;Im Multiplayer verfügt jeder Hof über einen komplett getrennten Arbeitsmarkt und eigenes Personal." />
+
+		<!-- Help: Employees -->
+		<text name="fabrix_help_employees_title" text="Mitarbeiter &amp; Schichtbetrieb" />
+		<text name="fabrix_help_employees_shifts_title" text="Schichtbetrieb" />
+		<text name="fabrix_help_employees_shifts_text" text="Fabriken produzieren im 24/7-Betrieb über drei 8-Stunden-Schichten:&#10;Frühschicht: 00:00–08:00 Uhr&#10;Tagschicht: 08:00–16:00 Uhr&#10;Spätschicht: 16:00–24:00 Uhr&#10;&#10;Die verfügbaren Plätze wachsen mit dem Fabriklevel. Pro Tag kann Personal nur in einer einzigen Schicht arbeiten – ein Wechsel während oder nach einer Schicht ist für diesen Tag gesperrt.&#10;&#10;Die Schichtleistung ergibt sich aus der addierten Produktivität der anwesenden Arbeiter (100 % entsprechen der Standard-Geschwindigkeit des Basisspiels). Drei Profis mit je 120 % Durchsatz beschleunigen die Produktion also um das 3,6-fache. Unbesetzte Schichten bedeuten Anlagenstillstand." />
+		<text name="fabrix_help_employees_categories_title" text="Personal &amp; Erfahrung" />
+		<text name="fabrix_help_employees_categories_text" text="Sobald die Bänder laufen, sammeln eingeteilte Mitarbeiter Erfahrung (XP). Mit jedem Level steigen ihre Produktivität und ihr Gehaltsanspruch.&#10;&#10;Erntehelfer bilden deine flexible Basisbelegschaft.&#10;Facharbeiter durchlaufen die Laufbahn vom Gesellen über den Meister bis zum Betriebsleiter – unverzichtbar, da größere Fabriken zwingend Führungskräfte verlangen.&#10;Azubis starten kostengünstig mit geringer Produktivität. Sie arbeiten ausschließlich in der Tagschicht von Werken ab Stufe 3 unter Aufsicht eines Meisters." />
+		<text name="fabrix_help_employees_seasonal_title" text="Erntehelfer" />
+		<text name="fabrix_help_employees_seasonal_text" text="Erntehelfer leveln bis Stufe 10 und steigern ihre Leistung dabei um fast 50 %. Ideal, um Bedarfsspitzen in Standardbetrieben flexibel abzufedern." />
+		<text name="fabrix_help_employees_career_title" text="Karrierepfade" />
+		<text name="fabrix_help_employees_career_text" text="Azubis absolvieren bei ausreichender Praxiserfahrung drei Schulphasen automatisch und schließen als Gesellen ab.&#10;&#10;Erfahrene Fachkräfte schickst du manuell auf Weiterbildung:&#10;Geselle zum Meister: 6 Monate Lehrgang (3.000 €)&#10;Meister zum Betriebsleiter: 8 Monate Lehrgang (6.000 €)&#10;&#10;Während der Schulung pausiert die Schichtarbeit bei voller Lohnfortzahlung. Nach Abschluss teilst du die Fachkraft neu ein.&#10;&#10;Keine Azubis im Arbeitsmarkt verfügbar? Sie bewerben sich nur im Spätsommer (Juli–September) und verlangen mindestens eine eigene Stufe-3-Fabrik mit Ausbildungsberechtigung." />
+		<text name="fabrix_help_employees_salary_title" text="Lohnkosten" />
+		<text name="fabrix_help_employees_salary_text" text="Gehälter werden monatlich abgerechnet. Das Grundgehalt beträgt 100 € für Erntehelfer und 80 € für Azubis und Facharbeiter, berechnet vor Level-Zuschlägen.&#10;&#10;Marktrekrutierungen fordern saftige Gehaltsaufschläge: Erntehelfer +10–40 %, Facharbeiter +10–70 %. Azubis behalten ihren günstigen Grundlohn auch nach der Weiterbildung.&#10;&#10;Rechenbeispiel Betriebsleiter: Eigenes Gewächs: 176 €/Monat | Vom Arbeitsmarkt abgeworben: 194–299 €/Monat." />
+		<text name="fabrix_help_employees_tip_title" text="Strategie: Ausbilden vs. Einkaufen" />
+		<text name="fabrix_help_employees_tip_text" text="Selbst ausgebildete Fachkräfte sparen langfristig enorme Summen. Zudem sind Meister und Betriebsleiter auf dem freien Markt extrem selten (nur ca. 6 % der Bewerber).&#10;&#10;Entwicklungsdauer:&#10;Azubi zum Gesellen: ca. 3 Jahre&#10;&#10;Sichere dir daher frühzeitig Azubis, sobald deine erste Fabrik Stufe 3 erreicht, und sorge für regelmäßige Schichteinsätze." />
+		<text name="fabrix_help_employees_leaders_title" text="Führungsrollen" />
+		<text name="fabrix_help_employees_leaders_text" text="Großbetriebe verlangen Führungsstrukturen (arbeiten außerhalb regulärer Schichtplätze):&#10;Meister (ab Fabrikstufe 3, Level 7–9): Packt aktiv in der Tagschicht mit an und ermöglicht die Azubi-Ausbildung.&#10;Betriebsleiter (ab Fabrikstufe 5, Level 10): Reine Verwaltungskraft – senkt die Grundsteuer des Standorts drastisch um 75 %.&#10;&#10;Stufe-5-Werke fordern sowohl Meister als auch Betriebsleiter. Fehlt eine der Rollen, legt das die gesamte Fabrik lahm." />
+		<text name="fabrix_help_employees_dismissal_title" text="Kündigung &amp; Rente" />
+		<text name="fabrix_help_employees_dismissal_text" text="Mit 65 Jahren folgt der wohlverdiente Renteneintritt ohne Abfindung. Sprichst du hingegen betriebsbedingte Kündigungen aus, wird zum Fristende eine Abfindung von 50 € je Beschäftigungsmonat fällig (Lohn läuft bis Fristende weiter; XP-Gewinn und Lehrgänge sind gesperrt).&#10;&#10;Fristen: Erntehelfer (Monatsende), Geselle (3 Monate), Meister (6 Monate), Betriebsleiter (9 Monate). Azubis genießen Kündigungsschutz.&#10;&#10;Reue kostet: Die Rücknahme einer Kündigung schlägt teuer zu Buche (Erntehelfer 1.500 €, Geselle 3.000 €, Meister 6.000 €, Betriebsleiter 10.000 €)." />
+		<text name="fabrix_help_employees_absence_title" text="Krankheit &amp; Fluktuation" />
+		<text name="fabrix_help_employees_absence_text" text="Kurzfristige Krankmeldungen blockieren Schicht- oder Führungspositionen bei fortlaufender Lohnzahlung. Ist der Meister krank und kein Ersatz da, ruht der Betrieb. Genesene Mitarbeiter müssen manuell zurück in den Dienstplan gesetzt werden.&#10;&#10;Ungemeldete Standzeiten provozieren Eigenkündigungen: Vernachlässigtes Personal wirft das Handtuch (ohne Abfindung). Verhindere den Abgang durch Gehaltsnachbesserungen (+10 % bis +100 %). Du hast exakt einen Verhandlungsversuch – lehnst du ab oder scheitert das Angebot, ist die Fachkraft weg." />
+		<text name="fabrix_help_employees_apprentice_title" text="Ausbildungspflicht" />
+		<text name="fabrix_help_employees_apprentice_text" text="Die Regelausbildung dauert 3 Jahre. Lässt du Azubis auf der Bank versauern, greift das Gesetz: Nach 4 Jahren drohen 500 € Verzugsstrafe. Nach 5 Jahren bricht der Azubi ab – das kostet dich 2.500 € Bußgeld plus 15.000 € Ausfallentschädigung. Schichteinsätze sind Pflicht!" />
+
+
+		<!-- Help: Factories -->
+		<text name="fabrix_help_factories_title" text="Fabriken &amp; Ausbau" />
+		<text name="fabrix_help_factories_xp_title" text="Erfahrung &amp; Erweiterung" />
+		<text name="fabrix_help_factories_xp_text" text="Aktive Betriebe mit besetzten Schichten sammeln monatlich bis zu 10 XP. Sobald der XP-Balken voll ist, kannst du den Standort kostenpflichtig modernisieren. Den Ausbau startest du im Einsatzplan mit der Taste X.&#10;&#10;Achtung Bauphase: Während des Umbaus ruht die Produktion komplett. Nach Fertigstellung muss die Fabrik im Produktionsmenü manuell reaktiviert werden." />
+		<text name="fabrix_help_factories_benefits_title" text="Ausbauvorteile" />
+		<text name="fabrix_help_factories_benefits_text" text="Jede Stufe vergrößert dein Lager, schafft mehr Arbeitsplätze pro Schicht und schaltet ab Stufe 3 die Ausbildung eigener Nachwuchskräfte frei." />
+		<text name="fabrix_help_factories_levels_title" text="Ausbaustufen" />
+		<text name="fabrix_help_factories_levels_text" text="Stufe 1: Basiswerk | Lager 1,0x | 1 Platz/Schicht&#10;Stufe 2: 80 XP | 30.000 € | 1 Monat Umbau | Lager 2,0x | 2 Plätze/Schicht&#10;Stufe 3: 110 XP | 80.000 € | 2 Monate Umbau | Lager 3,5x | 3 Plätze/Schicht + Meister&#10;Stufe 4: 210 XP | 120.000 € | 3 Monate Umbau | Lager 5,0x | 4 Plätze/Schicht + Meister&#10;Stufe 5: 330 XP | 250.000 € | 3 Monate Umbau | Lager 7,5x | 5 Plätze/Schicht + Meister &amp; Betriebsleiter" />
+		<text name="fabrix_help_factories_important_title" text="Führungspflicht" />
+		<text name="fabrix_help_factories_important_text" text="Kostenfalle Umbau: Ab Stufe 3 fordert die Fabrik zwingend einen Meister, ab Stufe 5 zusätzlich einen Betriebsleiter. Fehlt das Führungspersonal, sinkt die Produktivität auf glatte 0 %. Plane passende Fachkräfte unbedingt vor dem Upgrade ein." />
+
+		<!-- Help: Auto mode -->
+		<text name="fabrix_help_auto_title" text="Auto-Modus" />
+		<text name="fabrix_help_auto_function_text" text="Ab Fabrikstufe 2 steht dir die automatische Schichtdisposition zur Verfügung (pro Fabrik separat aktivierbar). Das System besetzt freie Plätze selbstständig nach Priorität: Zuerst Azubis, danach Facharbeiter und zuletzt Erntehelfer – jeweils sortiert nach der höchsten individuellen Produktivität.&#10;&#10;Fällt Personal durch Krankheit oder Lehrgänge aus, rückt automatisch Ersatz nach." />
+		<text name="fabrix_help_auto_leaders_title" text="Führung &amp; Ausbildung" />
+		<text name="fabrix_help_auto_leaders_text" text="Führungsstellen haben oberste Priorität: Wird ein Meister- oder Betriebsleiterposten frei, füllt das System diesen sofort auf. Notfalls werden dafür Führungskräfte aus normalen Schichten (auch werksübergreifend) abgezogen. Eine aktive Fabrikleitung wird jedoch niemals angetastet.&#10;&#10;Vorrang für Azubis: Ab Stufe 3 drückt der Auto-Modus verfügbare Azubis automatisch in die Tagschicht. Bei Vollbelegung muss ein regulärer Mitarbeiter weichen – er wandert entweder auf einen anderen freien Slot oder zurück in den Personalpool." />
+		<text name="fabrix_help_auto_notes_title" text="Wichtige Regeln" />
+		<text name="fabrix_help_auto_notes_text" text="Manuelle Eingriffe sperren den Slot: Entfernst du Personal von Hand, greift der Auto-Modus auf diesem Platz erst wieder nach dem nächsten Tageswechsel (Mitternacht).&#10;&#10;Baustellen-Logik: Fabriken im Umbau erhalten kein neues Personal; dort ungenutzte Mitarbeiter können vom System jedoch in andere Betriebe verschoben werden.&#10;&#10;Deaktivierung: Schaltest du den Modus ab oder leerst alle Plätze per Button, stoppt die automatische Disposition sofort." />
+		<text name="fabrix_help_auto_costs_title" text="Verwaltungskosten" />
+		<text name="fabrix_help_auto_costs_text" text="Die automatisierte Disposition kostet 150 € pro Fabrik und Monat. Der Betrag wird am Monatsende zusammen mit den Gehältern abgerechnet." />
+
+		<!-- Help: Production Revamp compatibility -->
+		<text name="fabrix_help_revamp_title" text="Kompatibilität mit dem Mod Production Revamp" />
+		<text name="fabrix_help_revamp_compatibility_title" text="Kompatibilität" />
+		<text name="fabrix_help_revamp_compatibility_text" text="FabriX und Production Revamp können gleichzeitig verwendet werden. Getestet wurde FabriX (Version 1.0.0.0) mit Production Revamp (Version 1.0.0.0). Eine vollständige Fehlerfreiheit kann jedoch nicht garantiert werden." />
+		<text name="fabrix_help_revamp_limitations_title" text="Bekannte Einschränkungen" />
+		<text name="fabrix_help_revamp_limitations_text" text="Transportkosten: Bei gemeinsamer Nutzung übernimmt Production Revamp die Verteilung zwischen Produktionen und berechnet die Transportkosten. Daher bleibt der FabriX-Posten für Transportkosten leer.&#10;&#10;Umbau: Produktionslinien mit „autoStart“ oder „hideFromMenu“ in der Produktions-XML lassen sich von Production Revamp nicht abschalten und können während eines Fabrikausbaus trotzdem weiterlaufen." />
+
+		<!-- Help: Other -->
+		<text name="fabrix_help_other_title" text="Wissenswertes" />
+		<text name="fabrix_help_other_costs_title" text="Finanzübersicht &amp; Verbrauch" />
+		<text name="fabrix_help_other_costs_text" text="Volle Transparenz statt Pauschalen: FabriX schlüsselt sämtliche Betriebs- und Personalkosten als eigene Posten in deiner Finanzübersicht auf.&#10;&#10;Abrechnungsintervalle:&#10;Monatlich: Gehälter sowie Strom (0,35 €/kWh) und Wasser (5,45 €/m³), exakt berechnet nach aktiven Rezepten.&#10;Täglich: Logistikkosten im Modus „Verteilen“.&#10;Jährlich: Grundsteuer (80–800 € je Werk; ein Betriebsleiter senkt diese um 75 %).&#10;Nach Bedarf: Einstellungen (250 €), Lehrgänge (3.000 / 6.000 €), Ausbauten (30.000–250.000 € als Investition), Abfindungen und Verzugsstrafen.&#10;&#10;Kompatibilität: Standard-Fabriken nutzen feste Verbrauchswerte für Strom und Wasser. Bei Werken aus externen Mods ermittelt FabriX automatisch dynamische Verbrauchsmengen." />
+		<text name="fabrix_help_other_production_title" text="Checkliste: Fabrik steht still?" />
+		<text name="fabrix_help_other_production_text" text="Wenn die Bänder ruhen, prüfe folgende Punkte:&#10;1. Rohstoffe: Liefert das Eingangslager ausreichend Nachschub?&#10;2. Kapazität: Ist das Ausgangslager voll?&#10;3. Status: Sind die entsprechenden Rezepte im Menü aktiv geschaltet?&#10;4. Schichtplan: Ist die aktuelle Schicht voll besetzt?&#10;5. Leitung: Fehlt ab Stufe 3 der Meister oder ab Stufe 5 der Betriebsleiter?" />
+		<text name="fabrix_help_other_limits_title" text="Multiplayer &amp; Status" />
+		<text name="fabrix_help_other_limits_text" text="Multiplayer: Systemmeldungen orientieren sich an der Spracheinstellung des Hosts bzw. Servers.&#10;FabriX wurde auch erfolgreich auf Dedicated Servern getestet.&#10;Trotz intensiver Tests lassen sich Fehler nicht immer ausschließen." />
+		<text name="fabrix_help_other_feedback_title" text="Feedback &amp; Support" />
+		<text name="fabrix_help_other_feedback_text" text="Bugs entdeckt, Feedback zur Balance oder neue Ideen?&#10;Eröffne gerne ein detailliertes Issue direkt im GitHub-Repository: https://github.com/Manu100001/FS25_FabriX" />
+
+		<!-- Helper Names Pool -->
+		<text name="ui_helper_name_pool_male" text="Achim,Adam,Adrian,Albert,Albrecht,Alex,Alexander,Alois,Alwin,André,Andreas,Anestis,Ansgar,Anton,Arend,Armin,Arndt,Arno,Arthur,Arved,Axel,Bastian,Bene,Benedikt,Benjamin,Benno,Bernd,Berthold,Björn,Bodo,Boris,Bosse,Boye,Brar,Broder,Bruno,Burkhard,Carl,Carsten,Caspar,Christian,Christoph,Christopher,Claashorst,Claus,Clemens,Constantin,Daniel,David,Dennis,Detlef,Diedrich,Dieter,Dietmar,Dirk,Dominic,Dominik,Ebbe,Eberhard,Eckart,Edo,Eelke,Ehrenfried,Eike,Eilert,Elias,Elmar,Emil,Engelbert,Enno,Enrico,Erhard,Eric,Erik,Ernst,Erwin,Fabian,Falk,Falko,Fedder,Felix,Fiete,Finn,Fjelko,Florian,Frank,Franz,Frederik,Frerik,Friedemann,Friedrich,Fritz,Gabriel,Georg,Gerd,Gerhard,Gernot,Gero,Gisbert,Gonne,Götz,Gregor,Guido,Gustav,Hagen,Hajo,Hannes,Hans,Harald,Hartl,Hartmut,Hauke,Heiko,Heino,Heinrich,Heinz,Hendrik,Henning,Henry,Herbert,Hermann,Holger,Horst,Hubert,Hubertus,Ignaz,Immo,Ingo,Jack,Jakob,Jan,Jannik,Jannis,Jelte,Jens,Jerg,Joachim,Jochen,Johannes,John,Jonas,Jonathan,Jorck,Josef,Jost,Jörg,Jörn,Julian,Julius,Justus,Jürgen,Kai,Karl,Karsten,Keno,Kevin,Kilian,Klaus,Knut,Konrad,Konstantin,Kurt,Lars,Lasse,Leif,Lennard,Lennart,Leo,Leon,Leonhard,Levi,Lienhard,Linus,Lorenz,Lothar,Lucas,Ludwig,Luis,Lukas,Lutz,Malte,Manfred,Manuel,Marc,Marcel,Marco,Mario,Marius,Mark,Markus,Martin,Mathis,Mats,Matthias,Max,Michael,Mika,Milan,Mirko,Momme,Moritz,Morten,Nick,Nico,Nils,Noah,Norbert,Olaf,Ole,Oliver,Onno,Oskar,Pascal,Patrick,Paul,Pay,Peer,Pelle,Peter,Philip,Philipp,Raik,Raimund,Rainer,Ralf,Ralph,Randy,Reimar,Reinhard,Reinhold,René,Richard,Rico,Robert,Robin,Roland,Roman,Ronald,Ronny,Rupert,Rüdiger,Samuel,Sascha,Sebastian,Sepp,Severin,Siegfried,Sieghard,Simon,Sönke,Stefan,Steffen,Stephan,Sven,Tammo,Thies,Thilo,Thomas,Thorsten,Till,Tillmann,Tim,Timo,Titus,Tjark,Tobias,Tom,Torben,Torsten,Tristan,Udo,Ulf,Ulrich,Unde,Uwe,Valentin,Veit,Viktor,Vincenct,Volker,Waldemar,Walter,Werner,Wilfried,Wilhelm,Wilko,Willem,Winfried,Wolfgang,Xaver,Yannik,Zacharias" />
+		<text name="ui_helper_name_pool_female" text="Adele,Agathe,Agnes,Alina,Alisa,Alma,Almut,Alwine,Amelie,Andrea,Angelika,Anika,Anike,Anita,Anja,Anke,Ann-Kathrin,Anna,Anna-Lena,Annegret,Anneke,Anneliese,Annelis,Annika,Annike,Antje,Astrid,Aylin,Barbara,Bärbel,Beate,Beatrice,Berta,Bettina,Bianca,Birgit,Birte,Blanka,Breschtling,Brigitte,Britta,Brunhilde,Brunhilte,Carina,Carola,Carolin,Carolina,Caroline,Cäcilia,Celina,Chantal,Charlotte,Chiara,Christa,Christel,Christina,Christine,Clara,Claudia,Constanze,Cora,Cordula,Corinna,Cornelia,Cosima,Creszentia,Dagmar,Daniela,Daria,Denise,Desirée,Diana,Dora,Doris,Dorothea,Dörte,Dunja,Edda,Edeltraud,Elena,Eleni,Elfi,Elfriede,Elif,Elisa,Elisabeth,Elise,Elke,Ella,Ellinor,Elsa,Elsbeth,Else,Emilia,Emily,Emira,Emma,Emmelheinz,Enna,Enya,Erika,Erna,Esther,Eva,Evelyn,Evi,Fee,Felicitas,Fenja,Fieke,Finja,Fiona,Flora,Florentine,Franka,Franziska,Frauke,Freya,Frida,Frieda,Friederike,Gabi,Gerda,Gerlinde,Gesche,Gisela,Gloria,Göntje,Greta,Gretchen,Gretel,Gretle,Grit,Gudrun,Gunda,Gundula,Hanna,Hannelore,Heide,Heidemarie,Heidi,Heike,Helga,Henriette,Hermine,Ida,Ilse,Imke,Ina,Ines,Ingeborg,Ingrid,Insa,Irena,Irene,Iris,Irmgard,Isabel,Isabella,Isabelle,Janina,Jasmin,Jennifer,Jessica,Johanna,Johanne,Josefine,Judith,Julia,Juliane,Jutta,Karin,Katharina,Katja,Katrin,Käthe,Käthle,Keike,Kerstin,Kira,Kirsten,Klara,Klärle,Konstanze,Kordula,Kristin,Lara,Laura,Lea,Lena,Lene,Leni,Leonie,Leoniel,Levke,Liesel,Lieselotte,Lilly,Lilo,Lina,Linda,Lisa,Lore,Lotte,Luisa,Luise,Madita,Magdalena,Maja,Manuela,Mara,Mareike,Margarete,Maria,Marianne,Marie,Mariele,Marina,Marion,Marita,Marlene,Marta,Martha,Martina,Mathilda,Maya,Mechthild,Meike,Melanie,Mia,Michaela,Mila,Mina,Miriam,Mirja,Momke,Monika,Nadine,Nadja,Nanke,Natalie,Natascha,Neele,Nele,Nicole,Nora,Ocke,Oda,Olga,Patricia,Paulina,Pauline,Petra,Pia,Ramona,Rebecca,Regina,Renate,Ricarda,Romy,Ronja,Rosalie,Rosemarie,Ruth,Sabine,Sabrina,Samira,Sandra,Sanne,Sarah,Saskia,Selina,Sibylle,Sieglinde,Sigrid,Silke,Silvia,Simone,Sina,Sonja,Sophia,Sophie,Stefanie,Stella,Susanne,Svea,Svenja,Tabea,Tamara,Tanja,Theresa,Therese,Ursula,Valerie,Vanessa,Vera,Verena,Veronika,Viktoria,Viola,Waltraud,Wencke,Wiebke,Wilma,Xenia,Yvonne" />
+	</texts>
+</l10n>
