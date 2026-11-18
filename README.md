@@ -30,9 +30,9 @@ This mod may not be copied, in whole or in part, into other mods or otherwise pu
 
 ![Compatibility](https://img.shields.io/badge/tested%20with-Production%20Revamp%201.0.0.0-4CAF50)![Limitations](https://img.shields.io/badge/limitations-2%20minor-orange)
 
-In my opinion, Production Revamp was very popular with the community in FS22. Judging by the discussions on the GIANTS Forum, a release for FS25 has been eagerly anticipated ever since FS25 was released.I expect that Production Revamp will also be very popular in FS25.
+In my opinion, Production Revamp was very popular with the community in FS22. Judging by the discussions on the GIANTS Forum, a release for FS25 has been eagerly anticipated ever since FS25 was released. I expect that Production Revamp will also be very popular in FS25.
 Since FabriX also revolves around productions and modifies and overrides various aspects of the base game, I checked at the end of my development process to see if both mods could be used at the same time and if there are any limitations.
-First, the good news: FabriX and Production Revamp are compatible with each other (as far as I've been able to test). Using them simultaneously does not cause the game to crash or result in errors in the logs.However, I cannot guarantee that this is 100% the case! I would appreciate any reports of potential errors or error messages.
+First, the good news: FabriX and Production Revamp are compatible with each other (as far as I've been able to test). Using them simultaneously does not cause the game to crash or result in errors in the logs. However, I cannot guarantee that this is 100% the case! I would appreciate any reports of potential errors or error messages.
 
 ### Known limitations
 
