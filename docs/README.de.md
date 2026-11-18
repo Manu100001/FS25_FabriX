@@ -252,4 +252,4 @@ Daraus ist FabriX entstanden, in vielen Stunden Freizeit und mit viel Lernen run
 
 ## Feedback
 
-Fehlerberichte, Vorschläge und Ideen sind sehr willkommen, am besten als (ausführlich beschriebenes) Issue in meinem GitHub-Repository: xxx
+Fehlerberichte, Vorschläge und Ideen sind sehr willkommen, am besten als (ausführlich beschriebenes) Issue hier in meinem GitHub-Repository.

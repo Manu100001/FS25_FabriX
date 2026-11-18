@@ -2,11 +2,11 @@
 
 **New gameplay for Farming Simulator 25 productions.**
 
-![Platform](https://img.shields.io/badge/Farming%20Simulator-25-4CAF50)![Version](https://img.shields.io/badge/version-1.0.0.0-blue)![Status](https://img.shields.io/badge/status-in%20review-yellow)![Multiplayer](https://img.shields.io/badge/multiplayer-supported-4CAF50)![Languages](https://img.shields.io/badge/languages-DE%20%7C%20EN-red)[![Production Revamp](https://img.shields.io/badge/Production%20Revamp-compatible%20with%20limitations-4CAF50)](#compatibility-with-production-revamp)
+![Platform](https://img.shields.io/badge/Farming%20Simulator-25-4CAF50)![Version](https://img.shields.io/badge/version-1.0.0.0-blue)![Status](https://img.shields.io/badge/status-released-green)![Multiplayer](https://img.shields.io/badge/multiplayer-supported-4CAF50)![Languages](https://img.shields.io/badge/languages-DE%20%7C%20EN-red)[![Production Revamp](https://img.shields.io/badge/Production%20Revamp-compatible%20with%20limitations-4CAF50)](#compatibility-with-production-revamp)
 
 ## About FabriX
 
-FabriX (pronounced like the English word “fabrics”, [ˈfæbrɪks]) turns Farming Simulator 25 productions into a management experience. Hire and train employees, plan shifts, upgrade factories and run your business.
+FabriX (pronounced like the English word “fabrics” [fæbrɪks]) turns Farming Simulator 25 productions into a management experience. Hire and train employees, plan shifts, upgrade factories and run your business.
 
 ## Documentation
 
@@ -21,7 +21,7 @@ This mod may not be copied, in whole or in part, into other mods or otherwise pu
 
 ## Installation
 
-1. Download the mod ZIP from the official ModHub or from this repository
+1. Download the mod ZIP from the official ModHub
 2. Copy it to your Farming Simulator 25 mods folder (`Documents/My Games/FarmingSimulator2025/mods`)
 3. Enable FabriX when loading your savegame
 4. Open the FabriX menu in-game with **K**. You can change the key binding in the game settings
