@@ -10,42 +10,42 @@
     </title>
     <description>
         <de>
-            <![CDATA[Gameplay-Overhaul für die Produktionen im LS25: Übernimm die Schichtplanung, stelle Fachkräfte ein und erweitere deine Standorte!
+    <![CDATA[Mach deine Produktionen im LS25 lebendig: Übernimm die Schichtplanung, bilde Fachkräfte aus und baue deine Standorte systematisch aus!
 
-FabriX wird „Fäbriks“ ausgesprochen, ähnlich dem englischen Wort „fabrics“.
+Mit FabriX wird aus passiven Produktionsketten echtes Betriebsmanagement. Statt anonymer Pauschalgebühren steuerst du Personal, Schichten und laufende Kosten – vom kleinen Handwerksbetrieb bis zum voll ausgelasteten Industriekonzern.
 
-Key-Features:
-• Personal & Karriere: Rekrutiere Erntehelfer und Facharbeiter oder bilde eigene Azubis aus. Mit gesammelter Erfahrung (XP) steigen Produktivität und Gehaltsansprüche vom Lehrling bis zum Betriebsleiter.
-• 24/7-Schichtsystem: Besetze drei Tagesschichten gezielt nach Qualifikation und halte deine Fabriken ausgelastet.
-• Führungsrollen: Ab Stufe 3 braucht jede Fabrik einen Meister, ab Stufe 5 zusätzlich einen Betriebsleiter. Ohne sie kann nicht produziert werden und die Fabrik steht still.
-• Echte Betriebskosten: Keine Pauschalen mehr! Bezahle reellen Strom- und Wasserverbrauch nach Rezeptaufwand und die monatlichen Gehälter für deine Mitarbeiter.
-• Standorterweiterung: Rüste deine Werke aus, um Lagerkapazitäten und zusätzliche Arbeitsplätze freizuschalten.
-• Auto-Modus: Aktiviere ab Stufe 2 den Auto-Modus für intelligentes, automatisiertes Schichtmanagement.
+Features:
+- Standorterweiterung: Werte deine Fabriken stufenweise auf, um größere Lagerkapazitäten, mehr Arbeitsplätze und neue Funktionen freizuschalten
+- Personal & Karriere: Stelle Erntehelfer und Facharbeiter ein oder bilde eigene Azubis aus. Mit steigender Erfahrung (XP) wachsen Produktivität und Gehaltsansprüche – vom Lehrling bis zum Betriebsleiter
+- 24/7-Schichtsystem: Plane bis zu drei Schichten pro Tag und besetze sie gezielt nach Qualifikation, damit deine Produktion rund um die Uhr läuft
+- Führungsrollen: Wachstum braucht Verantwortung – ab Stufe 3 benötigt ein Werk einen Meister, ab Stufe 5 zusätzlich einen Betriebsleiter. Ohne Führungskräfte stehen die Bänder still
+- Echte Betriebskosten: Schluss mit pauschalen Unterhaltskosten! Zahle den realen Strom- und Wasserverbrauch passend zum jeweiligen Rezept sowie monatliche Mitarbeitergehälter
+- Auto-Modus für Entspannte: Keine Lust auf ständiges Mikromanagement? Ab Stufe 2 übernimmt der intelligente Auto-Modus auf Wunsch die Schichtplanung für dich
 
-Tastenkürzel:
-- Taste K: FabriX-Menü öffnen/schließen (in den Steuerungsoptionen anpassbar)
+Steuerung:
+- Taste K: FabriX-Menü öffnen/schließen (in den Optionen frei belegbar)
 
-Detaillierte Anleitungen findest du im Pause-Menü unter „Hilfe“ sowie im GitHub-Repository.
+Ausführliche Anleitungen findest du direkt im Spiel im Pause-Menü unter „Hilfe“ sowie auf GitHub.
 
-Über Feedback, Anregungen und Bug-Reports freue ich mich: https://github.com/Manu100001/FS25_FabriX]]>
-        </de>
+Feedback, Ideen und Bug-Reports sind jederzeit willkommen: https://github.com/Manu100001/FS25_FabriX]]>
+</de>
         <en>
-            <![CDATA[Gameplay overhaul for Farming Simulator 25 productions: take charge of shift planning, hire skilled workers, and expand your sites!
-
-FabriX is pronounced like the English word “fabrics” (/ˈfæbrɪks/).
+            <![CDATA[Bring your production operations to life in FS25: Take charge of shift scheduling, train skilled workers, and systematically expand your facilities!
+            
+With FabriX, passive production chains become true operational management. Instead of anonymous flat fees, you manage staff, shifts, and operating costs – from small craft businesses to industrial conglomerates operating at full capacity.
 
 Key Features:
-• Workforce & Career: Hire seasonal workers, skilled staff, or train your own apprentices. Gaining experience (XP) increases efficiency and salary demands from apprentice to director.
-• 24/7 Shift System: Assign workers to three daily shifts according to their qualifications and keep your factories running at full capacity.
-• Leadership Roles: From level 3 onward, every factory requires a master; from level 5 onward, it also requires a director. Without them, the factory cannot produce and stands still.
-• Real Operating Expenses: No more flat fees! Pay for actual electricity and water consumption based on production recipes, as well as your employees' monthly wages.
-• Site Expansions: Upgrade your factories to unlock more storage capacity and additional jobs.
-• Auto Mode: Activate Auto Mode from level 2 onward for smart, automated shift management.
+• Facility Expansion: Gradually upgrade your factories to unlock larger storage capacities, more jobs, and new features
+• Staff & Careers: Hire seasonal workers and skilled laborers, or train your own apprentices. As experience (XP) increases, productivity and salary expectations rise - from apprentice to director
+• 24/7 Shift System: Schedule up to three shifts per day and staff them based on qualifications to keep your production running around the clock
+• Leadership Roles: Growth requires responsibility – from level 3, a factory needs a foreman, and from level 5, an additional director. Without leaders, the assembly lines come to a standstill
+• Real Operating Costs: No more flat-rate maintenance costs! Pay for the actual electricity and water consumption based on each recipe, as well as monthly employee salaries
+• Hands-Off Auto Mode: Don't feel like constantly micromanaging? From level 2, the intelligent auto mode can take over shift planning for you if you choose
 
 Controls:
 - Key [K]: Open/close the FabriX management menu (rebindable in control options)
 
-Detailed guides are available in the in-game Help menu and in the GitHub repository.
+You can find detailed instructions right in the game in the pause menu under "Help" as well as on GitHub.
 
 I look forward to your feedback, suggestions, and bug reports: https://github.com/Manu100001/FS25_FabriX]]>
         </en>
