@@ -248,4 +248,4 @@ That is how FabriX came about, built over many hours of spare time with a lot of
 
 ## Feedback
 
-Bug reports, suggestions and ideas are very welcome, ideally as a (detailed) issue in my GitHub repository: xxx
+Bug reports, suggestions and ideas are very welcome, ideally as a (detailed) issue here in my GitHub repository.

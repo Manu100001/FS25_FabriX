@@ -255,7 +255,7 @@
         <text name="fabrix_gui_ov_finances" text="FINANCES" />
         <text name="fabrix_gui_ov_salary" text="Wage costs / month" />
         <text name="fabrix_gui_ov_property_tax" text="Property tax / year" />
-        <text name="fabrix_gui_ov_cost_total" text="Total cost / month" />
+        <text name="fabrix_gui_ov_cost_total" text="Estimated costs / month" />
         <text name="fabrix_gui_ov_productions" text="PRODUCTIONS" />
         <text name="fabrix_gui_ov_factories_total" text="Total factories" />
         <text name="fabrix_gui_ov_slots_used" text="Occupied worker slots" />
