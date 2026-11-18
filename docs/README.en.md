@@ -244,7 +244,7 @@ The FS22 mod "Production Revamp" showed that more is possible, but it still lack
 
 When GIANTS announced the mod contest, I thought: now is the right time to try my hand at my first own mod.
 
-That is how FabriX came about, built over many hours of spare time with a lot of learning about modding and game mechanics.
+That is how FabriX came about, built over many hours of spare time with a lot of learning about modding and game mechanics. I hope you like it!
 
 ## Feedback
 
