@@ -248,7 +248,7 @@ Der Mod „Production Revamp“ aus dem LS 22 hat gezeigt, dass mehr möglich is
 
 Als GIANTS dann den Mod-Contest angekündigt hat, dachte ich mir: Jetzt ist der richtige Zeitpunkt, mich an meinem ersten eigenen Mod zu versuchen.
 
-Daraus ist FabriX entstanden, in vielen Stunden Freizeit und mit viel Lernen rund um Modding und Spielmechaniken.
+Daraus ist FabriX entstanden, in vielen Stunden Freizeit und mit viel Lernen rund um Modding und Spielmechaniken. Ich hoffe, dass er euch gefällt!
 
 ## Feedback
 
